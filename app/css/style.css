@@ -1177,12 +1177,12 @@ p {
     text-align: start; }
   .header--title {
     margin-top: 135px;
-    font-size: 36px;
+    font-size: 32px;
     text-align: inherit; }
     .header--title:after {
       margin-left: 0; }
   .header--description p {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 38px; }
   .btn-header, .connection-section .btn-news {
     margin-bottom: 135px;
