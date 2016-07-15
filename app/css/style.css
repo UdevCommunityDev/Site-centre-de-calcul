@@ -1133,6 +1133,12 @@ p {
   height: 300px;
   resize: none; }
 
+#googleMap {
+  width:500px;
+  height:360px;
+  padding-bottom:50px;
+}
+
 .footer {
   background-color: #001720; }
   .footer .links .title {
