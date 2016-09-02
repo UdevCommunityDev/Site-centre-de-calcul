@@ -337,7 +337,7 @@
                                     <ul>
                                         <li>
                                             <div class="c-xs-10">
-                                                <h4>Energie:( SONELGAZ ,SONATRACH ).</h4>
+                                                <h4>Energie (SONELGAZ ,SONATRACH).</h4>
                                             </div>
                                         </li>
                                         <li>
@@ -357,7 +357,7 @@
                                         </li>
                                         <li>
                                             <div class="c-xs-10">
-                                                <h4>Combustion: ( La Propagation de feu ).</h4>
+                                                <h4>Combustion (La Propagation de feu).</h4>
                                             </div>
                                         </li>
                                     </ul>

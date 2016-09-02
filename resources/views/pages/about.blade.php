@@ -5,33 +5,24 @@
 @stop
 
 @section('body')
-    <section id="about" class="section about-section">
+    <section id="about" class="section portion about-section">
         <div class="container">
             <div class="section-title">
-                <h1>A propos de l’UCI</h1>
+                <h1>A propos de l’UCI(Heading  1)</h1>
             </div>
             <div class="content">
-                <div class="c-xs-12 c-s-4 item">
-                    <i class="icon icon-cluster-icon"></i>
-                    <h2><a href="">Cluster</a></h2>
-                    <h3>Présentation du cluster.</h3>
-                </div>
-                <div class="c-xs-12 c-s-4 item">
-                    <i class="icon icon-use-d-icon"></i>
-                    <h2><a href="">Domaines d’utilisation</a></h2>
-                    <h3>
-                        Différents domaines d'application
-                        d'un SuperOrdinateur.
-                    </h3>
-                </div>
-                <div class="c-xs-12 c-s-4 item">
-                    <i class="icon icon-hpc-icon"></i>
-                    <h2><a href="">HPC</a></h2>
-                    <h3>
-                        Définition de
-                        High Performance Computing.
-                    </h3>
-                </div>
+                <h2>Heading 2 </h2>
+                <h3>Heading 3 </h3>
+                <h4>Heading 4 </h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto autem, cum eos explicabo illum laboriosam,
+                    modi nihil officiis placeat quas quia quis reprehenderit similique, temporibus vitae. Libero provident sint voluptatum!
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit <a href="" class="hashtag">Alias</a> aperiam aspernatur consectetur deserunt ducimus,
+                    harum modi quae vero? Amet corporis impedit magni nemo, nihil quae suscipit! Eveniet odit veniam voluptate?
+
+                </p>
             </div>
         </div>
 

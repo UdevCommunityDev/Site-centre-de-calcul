@@ -1715,11 +1715,24 @@ hr {
 .right {
   float: right; }
 
-.about-section .item {
-  text-align: center;
-  margin-bottom: 20px; }
-  .about-section .item a {
-    color: #000; }
+.about-section {
+  min-height: 89vh; }
+  .about-section .section-title {
+    color: #1fa7ff; }
+  .about-section h2 {
+    color: #1fa7ff;
+    font-family: "Myriad Pro re", sans-serif;
+    border-bottom: 1px solid #1fa7ff; }
+  .about-section h3 {
+    color: rgba(31, 167, 255, 0.8);
+    font-style: italic; }
+  .about-section h4 {
+    color: #0A68BE; }
+    .about-section h4:before {
+      content: '> '; }
+  .about-section .hashtag {
+    color: #1fa7ff;
+    font-weight: normal; }
 
 .connection-section {
   background-image: url(../img/conx-pic.png);
@@ -2333,8 +2346,6 @@ hr {
     margin-bottom: 135px;
     margin-left: 0;
     float: left; }
-  .about-section .item {
-    text-align: center; }
   .connection-section .btn-news {
     margin: 0; }
   .connection-section .news--description p {
