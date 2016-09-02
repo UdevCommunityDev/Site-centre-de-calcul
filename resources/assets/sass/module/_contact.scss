@@ -1,0 +1,48 @@
+.contact-section{
+  text-align: start;
+  .container{
+    padding: 5%;
+  }
+  .content{
+    padding: 50px;
+  }
+  .section-content{margin-top: 0}
+  h1{
+    color: $main-color;
+    text-align: center;
+  }
+  h2{
+    color: #1fa7ff;
+    font-family: "Myriad Pro re", sans-serif;
+    border-bottom: 1px solid #1fa7ff;
+  }
+  h3{
+    color: rgba($main-color,0.8);
+    font-style: italic;
+  }
+
+  .information{
+    p,.title{text-align: start}
+    .title{
+      @extend h1 ;
+      &:after{
+        margin: 20px 0;
+        width: 160px;
+      }
+    }
+  }
+  .map{
+    &:before{
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(#ffffff,0.01);
+    }
+  }
+
+
+}

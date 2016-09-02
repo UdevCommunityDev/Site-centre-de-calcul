@@ -1,0 +1,28 @@
+.user-info-form{
+  .head{
+    .published{
+      float: right;
+      margin: 15px 0 ;
+    }
+    .username{
+      display: inline-block;
+    }
+  }
+}
+.user-info{
+    .info-area{
+      min-height: 76px;
+      border-bottom: 2px solid $main-color;
+      strong{
+        line-height: 76px;
+      }
+      .info{
+        color: $main-color;
+      }
+    }
+}
+.profile-pic{
+ img{
+   border: 5px solid rgba(#999999,0.4);
+ }
+}

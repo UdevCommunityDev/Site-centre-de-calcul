@@ -1,0 +1,28 @@
+.site-content-footer{
+  padding:0;
+  .popular-title{
+    float: left;
+    color: $darken-main-color;
+    font-family:"Segoe UI Light",sans-serif;
+    border-bottom: 2px solid $darken-main-color;
+    padding: 5px 0;
+    display: inline-block;
+  }
+  .item{
+    margin-bottom: 20px;
+    padding: 0 10px ;
+  }
+  .item-title  {
+    margin:5px 0;
+    a{
+      color: $darken-main-color;
+      font-weight: normal;
+      font-family: "Segoe UI Light",sans-serif;
+    }
+  }
+  .item-date{
+    color: #999999;
+    font-size: 14px;
+    font-family: "Segoe UI Regular",sans-serif;
+  }
+}

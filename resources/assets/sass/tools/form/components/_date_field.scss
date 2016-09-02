@@ -1,0 +1,62 @@
+.form{
+  .f-group{
+    &.date-field{
+      input[type="datetime-local"].f-control,
+      input[type="date"].f-control,
+      input[type="week"].f-control,
+      input[type="month"].f-control{
+        @extend .text_field_appearance ;
+        @extend .under_line_style ;
+      }
+      label.f-control{
+        @extend .label_style ;
+      }
+      &{
+        &.is-focused {
+            input.f-control{
+              color: black;
+              &:after {
+                transform: scaleX(1);
+              }
+
+            }
+            label.f-control {
+              top: 0;
+              left: 0;
+              transform: translateY(0) scale(.75);
+              color: $color-default;
+            }
+
+            &.f-group-error {
+              input.f-control:after{
+                background-color: $error-color ;
+              }
+              label.f-control {
+                color:  $error-color;
+              }
+            }
+            &.f-group-warning {
+              input.f-control:after{
+                background-color: $warning-color ;
+              }
+              label.f-control {
+                color:  $warning-color;
+              }
+            }
+            &.f-group-success {
+              input.f-control:after{
+                background-color:  $success-color ;
+              }
+              label.f-control {
+                color:   $success-color;
+              }
+            }
+
+        }
+      }
+
+
+    }
+
+  }
+}

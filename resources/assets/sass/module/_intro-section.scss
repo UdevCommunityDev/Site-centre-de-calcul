@@ -1,0 +1,74 @@
+.intro-section{
+  h2{
+    color: #1fa7ff;
+    font-family: "Myriad Pro re", sans-serif;
+    border-bottom: 1px solid #1fa7ff;
+  }
+  h3{
+    color: rgba($main-color,0.8);
+    font-style: italic;
+   }
+  h4{
+    color: #0A68BE;
+    &:before{
+      content: '> ';
+    }
+  }
+  .summary{
+    .item{
+      text-align: center;
+      margin:50px 0 0 0 ;
+      padding: 50px;
+      .item-title,.item-description{
+        display: block;
+        text-align: center;
+      }
+      .item-title,.hashtag{
+        color: $main-color;
+      }
+      .hashtag{
+        font-size: 16px;
+        font-weight:normal;
+      }
+
+    }
+  }
+  .service-description{
+    hr{
+      width: 30%;
+      margin: 50px auto ;
+    }
+    ul{
+      list-style: none;
+    }
+    .features{
+      color: $main-color;
+      li{
+        margin: 15px 0 ;
+        font-size: 16px;
+        font-family: "Roboto Regular",sans-serif;
+      }
+    }
+    .service-into{
+      margin: 30px 0 55px 0;
+    }
+    .components{
+      margin: 10px 0;
+    }
+    .cluster{
+      padding: 20px;
+      box-shadow: 0 0 2px rgba(#999999,.5);
+      .data{
+        padding: 10px 50px;
+      }
+      table{
+        tr{
+          margin: 5px 0 ;
+          border-bottom: 1px solid rgba($main-color,.2);
+        }
+      }
+    }
+
+  }
+
+}

@@ -1,0 +1,90 @@
+
+.icon{
+    display: inline-block ;
+    background-image: url(../img/sprite.png) ;
+}
+
+    .icon-calendar {
+    @extend .icon ;
+    background-position: -642px -167px;
+    width: 30px;
+    height: 29px;
+    }
+    .icon-cluster-icon {
+    @extend .icon ;
+    background-position: 0px -267px;
+    width: 73px;
+    height: 73px;
+    }
+    .icon-empty-img-placeholder {
+    @extend .icon ;
+    background-position: -612px -167px;
+    width: 30px;
+    height: 29px;
+    }
+    .icon-home-icon {
+    @extend .icon ;
+    background-position: -521px -167px;
+    width: 31px;
+    height: 31px;
+    }
+    .icon-hpc-icon {
+    @extend .icon ;
+    background-position: -146px -267px;
+    width: 72px;
+    height: 72px;
+    }
+    .icon-inscription {
+    @extend .icon ;
+    background-position: 0px 0px;
+    width: 813px;
+    height: 167px;
+    }
+    .icon-left-arrow {
+    @extend .icon ;
+    background-position: -552px -167px;
+    width: 30px;
+    height: 29px;
+    }
+    .icon-logo {
+    @extend .icon ;
+    background-position: 0px -167px;
+    width: 330px;
+    height: 50px;
+    }
+    .icon-mail-icon {
+    @extend .icon ;
+    background-position: -490px -167px;
+    width: 31px;
+    height: 31px;
+    }
+    .icon-news-icon {
+    @extend .icon ;
+    background-position: -111px -217px;
+    width: 42px;
+    height: 42px;
+    }
+    .icon-right-arrow {
+    @extend .icon ;
+    background-position: -582px -167px;
+    width: 30px;
+    height: 29px;
+    }
+    .icon-s-logo {
+    @extend .icon ;
+    background-position: 0px -217px;
+    width: 111px;
+    height: 50px;
+    }
+    .icon-udev-icon {
+    @extend .icon ;
+    background-position: -330px -167px;
+    width: 160px;
+    height: 40px;
+    }
+    .icon-use-d-icon {
+    @extend .icon ;
+    background-position: -73px -267px;
+    width: 73px;
+    height: 73px;
+    }

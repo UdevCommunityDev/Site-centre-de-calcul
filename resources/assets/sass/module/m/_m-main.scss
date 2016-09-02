@@ -1,0 +1,11 @@
+.main{
+  .header--title{
+    text-align: start;
+    &:after{
+      margin: 40px 0;
+    }
+  }
+  .header--description p{
+    text-align: start;
+  }
+}

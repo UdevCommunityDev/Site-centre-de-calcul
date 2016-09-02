@@ -1,0 +1,46 @@
+/*--------------------*\
+   Grid Variables
+\*--------------------*/
+
+
+$small  : 668px!default;
+$medium  : 992px!default;
+$large  : 1200px!default;
+$dib : inline-block ;
+$dn : none ;
+
+
+$gridy:(
+        flow: ltr,
+        math: fluid,
+        global-box-sizing: border-box,
+        last-flow: to,
+        container:(
+                container: auto,
+                gutter-position: split,
+                container-h-gutters: 148/1440,
+                container-v-gutters: false
+        ),
+        rows:(
+
+        ),
+        cells:(
+                cell-columns:12,
+                cell-gutter-position: inside,
+                cell-h-gutters: .25,
+                cell-v-gutters: false
+        ),
+        debug: (
+                image: hide,
+                color: rgba(#1fa7ff, .25),
+                base-line-height:50px,
+                output: background,
+                toggle: top right,
+        ),
+
+
+
+
+);
+
+

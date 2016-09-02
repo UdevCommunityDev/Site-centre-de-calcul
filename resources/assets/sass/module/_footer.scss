@@ -1,0 +1,43 @@
+.footer{
+   background-color: #001720;
+   .links{
+    .title{
+      text-align: start;
+      color: $main-color;
+    }
+    .item{
+      text-align: start;
+      display: block;
+      margin: 20px 0 ;
+      &:before{
+        content: "";
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        border-radius: 12px;
+        background-color: white;
+        margin-right: 10px;
+
+      }
+
+    }
+
+  }
+  .addresses{
+    p{
+      text-align: start;
+      color: white;
+    }
+    .icon{margin: 10px 20px 0  0 ;float: left}
+  }
+  .copyright{
+    background-color: #051322;
+    padding: 20px;
+    color: white;
+    text-align: center;
+
+  }
+  .hashtag{
+    color: $main-color;
+  }
+}

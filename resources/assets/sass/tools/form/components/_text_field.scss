@@ -1,0 +1,114 @@
+.form{
+  .f-group{
+    &.text-field{
+      @extend .under_line_style ;
+      input[type='text'].f-control,
+      input[type='password'].f-control,
+      input[type='email'].f-control,
+      input[type='number'].f-control,
+      input[type='search'].f-control,
+      input[type='url'].f-control,
+      input[type='tel'].f-control,
+      input[type='file'].f-control,
+      textarea.f-control{
+        @extend .text_field_appearance ;
+        @extend .f-control ;
+      }
+
+      textarea.f-control{
+        min-height: 200px;
+        resize: none;
+      }
+
+      label.f-control{
+        transform-origin: 0 50%;
+        transform: translateY(24px);
+        width: auto;
+        color: lighten(#000000, 75);
+        transition-duration: 0.3s;
+        transition-property: transform, font-size;
+        @extend .f-control ;
+      }
+
+
+      &.m-field {
+        min-height: 78px;
+        input.f-control, textarea.f-control {
+          font-size: 24px;
+        }
+        label.f-control {
+          font-size: 20px;
+        }
+      }
+
+      &.l-field {
+        min-height: 88px;
+        input.f-control{
+          font-size: 36px;
+        }
+        label.f-control{
+          font-size: 30px;
+        }
+      }
+
+      &.f-group-error {
+        &:after {
+          background-color: $error-color;
+        }
+        label.f-control {
+          color: $error-color;
+        }
+      }
+
+      &.f-group-warning {
+        &:after {
+          background-color: $warning-color;
+        }
+        label.f-control{
+          color: $warning-color;
+        }
+      }
+      &.f-group-success {
+        &:after {
+          background-color: $success-color;
+        }
+        label.f-control {
+          color: $success-color;;
+        }
+      }
+      &{
+        &.is-focused {
+          label.f-control {
+            transform: translateY(0) scale(.75);
+            color: $color-default;
+          }
+          &:after {
+            transform: scaleX(1);
+          }
+          &.f-group-error {
+            label.f-control {
+              color: $error-color;
+            }
+          }
+          &.f-group-warning {
+            label.f-control {
+              color: $warning-color;
+            }
+          }
+          &.f-group-success {
+            label.f-control {
+              color: $success-color;
+            }
+          }
+
+        }
+      }
+    }
+
+
+
+  }
+
+
+
+}

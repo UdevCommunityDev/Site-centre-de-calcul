@@ -1,0 +1,121 @@
+@media only screen and(max-width: $responsive-width ) {
+
+  .site-header,
+  .site-content{  transition-duration:0.5s ; transition-property:transform ,padding,box-shadow;  }
+  .header--trigger-box{
+    display: block;
+    transition-duration: 0.2s;
+    &:hover{
+      box-shadow: 0 0 10px #ffffff;
+    }
+
+  }
+
+   .site-header{
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     width: auto;
+     display: block;
+     transform: translateX($nav-width );
+    .navbar--secondary{
+      width: $nav-width;
+      height: 100%;
+      padding: 0;
+      overflow-y: auto;
+      background-color: $nav-secondary-color;
+
+      .nav-left,.nav-right{
+        float: left;
+        display: block;
+        height: auto;
+        width: 100%;
+        line-height: 36px;
+        text-align: center;
+      }
+      .nav-left{
+        background-color: $nav-primary-color;
+        .header--logo{
+          width: 100%;
+          text-align: center;
+        }
+      }
+      .nav-right{
+        .more-items{
+          position: relative;
+          top:0 ;
+          right:0;
+          width: 100%;
+          display: block;
+          line-height:36px;
+          .item{
+            margin-right: 0;
+            display: block;
+            &:hover{
+              color: $nav-primary-color;
+            }
+            &:before{
+              padding: 0;
+            }
+          }
+          &:before{
+            display: none;
+          }
+
+        }
+        .more-items-trigger{
+          display: none;
+          &.show{
+            display: none;
+          }
+        }
+      }
+
+      .item{
+        display: block;
+        padding: 10px 0;
+        text-align: center;
+        color: $nav-primary-color;
+        margin-right: 0;
+        &:hover{
+          background-color: rgba(#ffffff,0.7);
+        }
+        &:active{
+          background-color: rgba(#ffffff,0.7);
+        }
+        &:last-child{
+          border-bottom: none;
+        }
+        &.is-active{
+          background-color: rgba(#ffffff,0.7);
+        }
+      }
+    }
+  }
+
+
+  .site-content{
+    top: $nav-primary-height  ;
+    padding-top: 0;
+  }
+
+  .with-slider{
+    overflow-y: hidden;
+    .header--trigger-box{
+      box-shadow: 0 0 10px #ffffff;
+    }
+
+    .site-header{
+      transform: translateX(0);
+    }
+
+    .site-content{
+      transform: scale(0.9);
+      box-shadow: 0 0 30px #ffffff;
+      overflow-y: hidden;
+    }
+
+    .site-cache{display: block;}
+  }
+}

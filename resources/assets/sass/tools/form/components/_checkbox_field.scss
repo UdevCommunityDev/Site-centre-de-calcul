@@ -1,0 +1,94 @@
+.form{
+  .f-group{
+    &.check-field {
+      min-height: 43px;
+      padding-top: 8px;
+      input[type="radio"].f-control,
+      input[type="checkbox"].f-control {
+        display: none;
+      }
+      span {
+        position: relative;
+        height: 25px;
+        width: 25px;
+        display: inline-block;
+        border: 2px solid #e7e7e7;
+        float: left;
+      }
+      input[type="checkbox"].f-control ~ span {
+        &:after, &:before {
+          content: "";
+          position: absolute;
+          height: 2px;
+          background-color: $color-default;
+          transition: width 0.3s;
+        }
+        &:after {
+          display: block;
+          top: 2px;
+          width:0%;
+          transform-origin: 100% 100%;
+          transform: translateY(-50%) rotate(-56deg);
+        }
+        &:before {
+          top: 50%;
+          left: 2px;
+          transform-origin: 0 0;
+          transform: translateY(-50%) rotate(45deg);
+          width: 0;
+        }
+      }
+      input[type="radio"].f-control ~ span {
+        border-radius: 25px;
+        &:after{
+          content: "";
+          position: absolute;
+          top: 23px;
+          right: 23px;
+          bottom: 23px;
+          left: 23px;
+          background-color: $color-default;
+          border-radius: 25px;
+          border: 2px solid #ffffff ;
+          transition-property: top , right , bottom , left;
+          transition-duration: 0.2s;
+        }
+      }
+
+      input[type="checkbox"].f-control:checked ~ span {
+        border-color: $color-default;
+        transition-duration: 1s;
+        &:before {
+          width: 50%;
+        }
+        &:after {
+          width: (23/25) * 100%;
+        }
+      }
+      input[type="radio"].f-control:checked ~ span {
+        border-color: $color-default;
+        &:after{
+          top: 2px;
+          right: 2px;
+          bottom: 2px;
+          left: 2px;
+        }
+      }
+      input[type="radio"].f-control:checked + label.f-control ,
+      input[type="checkbox"].f-control:checked + label.f-control {
+        color: $color-default;
+      }
+
+      label.f-control {
+        vertical-align: middle;
+        display: inline-block;
+        margin-left: 10px;
+        line-height: 28px;
+        color: lighten(#000000, 75);
+        font-size: 14px;
+      }
+
+    }
+
+  }
+}

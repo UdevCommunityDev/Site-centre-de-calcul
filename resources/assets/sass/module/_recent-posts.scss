@@ -1,0 +1,16 @@
+.recent-posts-section{
+  height: 355px;
+  width: 100%;
+  padding: 40px 0 ;
+  .container,.row{
+    height: 100%;
+    width: 100%;
+    float: left;
+  }
+
+  .item{
+    border: 1px solid black;
+    float : left;
+    height: 100%;
+  }
+}

@@ -1,0 +1,20 @@
+.show-category-section{
+  a{
+    color: $main-color;
+  }
+  .category-name{
+    color: $main-color;
+  }
+
+  .item{
+    padding: 10px;
+    .item-content{
+
+
+    }
+    &:hover{
+      background-color: rgba(#999999,.2);
+    }
+  }
+
+}

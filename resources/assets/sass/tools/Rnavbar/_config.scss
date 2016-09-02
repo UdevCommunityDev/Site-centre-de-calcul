@@ -1,0 +1,47 @@
+$nav-primary-height : 0!default;
+$nav-primary-color  : #000b18!default;
+
+$nav-secondary-height : 65px!default;
+$nav-secondary-color  : #1fa7ff!default;
+
+
+$responsive-width : 760px!default;
+$nav-width        : 250px!default;
+
+
+$trigger-box-padding : 5px!default;
+
+$header-height : $nav-primary-color + $nav-secondary-height ;
+
+
+
+
+%absolute {
+  position: absolute;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+%dpn{display: none;}
+
+%trigger-box{
+  border-left: 1px solid black;
+  height: $nav-primary-height  ;
+  line-height: $nav-primary-height - $trigger-box-padding * 2 ;
+  vertical-align: middle;
+  width: $nav-primary-height;
+  float:right;
+  cursor: pointer;
+  padding: $trigger-box-padding;
+  text-align: center;
+}
+
+%trigger-default-shape{
+  display: inline-block;
+  height: 4px ;
+  width: 30px;
+  background-color: #ffffff;
+  border-radius: 50px  ;
+}

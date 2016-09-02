@@ -1,0 +1,42 @@
+.main{
+  @extend %clearfix ;
+  background-image: url("../img/main-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .usto-logo{
+    padding-top: 45px;
+  }
+  %color-white{
+    color: white;
+  }
+  .header--title{
+    font-size: 30px;
+    margin-top: 70px;
+    text-align: center;
+    @extend %color-white ;
+    &:after{
+      content: '';
+      display: block;
+      height: 2px;
+      width: 65px;
+      clear: both;
+      background-color: white;
+      margin: 40px auto ;
+    }
+  }
+  .header--description{
+    p{
+      @extend %color-white;
+      line-height:32px;
+      text-align: center;
+    }
+    margin-bottom: 40px;
+  }
+
+  .btn-header{
+    line-height:20px;
+    margin: 0 auto ;
+    margin-bottom: 50px;
+  }
+}

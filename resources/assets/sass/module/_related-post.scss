@@ -1,0 +1,64 @@
+.related-post,.related-category{
+  margin: 5px 33px 30px 30px ;
+  .category-name{
+    color: $darken-main-color;
+    font-family:"Segoe UI Light",sans-serif;
+    border-bottom: 2px solid $darken-main-color;
+    padding: 5px 0;
+    a{
+      color: inherit;
+    }
+  }
+  .item{
+    margin: 5px 0 ;
+    padding: 5px;
+    transition-duration: 0.3s;
+    ul{
+      padding: 0;
+    }
+    .post-title{
+      color: rgba($darken-main-color,0.7);
+      margin:  0 0 8px 0 ;
+      font-size: 14px ;
+      font-weight: normal;
+      display: inline-block;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+    &:hover{
+      background-color: rgba($darken-main-color , 0.25);
+    }
+    &:active{
+      background-color: rgba($darken-main-color , 0.25);
+    }
+    .item-content{
+     padding-left: 5px;
+    }
+    .item-title {
+      margin:0;
+      color: $darken-main-color;
+      font-weight: normal;
+      font-family: "Segoe UI Regular",sans-serif;
+    }
+    .item-date{
+      color: #999999;
+      font-size: 12px;
+      font-family: "Segoe UI Regular",sans-serif;
+    }
+  }
+  .see-more a{
+    color: $darken-main-color;
+    font-family:"Segoe UI Regular",sans-serif;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    padding: 3px 0;
+    background-color: rgba($darken-main-color , 0.25); ;
+
+    font-weight: normal;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+}

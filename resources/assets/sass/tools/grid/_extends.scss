@@ -1,0 +1,93 @@
+/*--------------------*\
+     Extends Grid
+\*--------------------*/
+
+/* columns  */
+$gridy-cells : map_get($gridy,cells) ;
+
+
+
+
+
+%col{
+  display: inline-block;
+  float: left;
+  min-height: 1px ;
+  height: auto ;
+  overflow: hidden;
+  position: relative;
+  @include cell-gutters() ;
+}
+
+
+
+
+/* Clear fix */
+
+%clearfix {
+  &:before, &:after {
+    content:" ";
+    display:table;
+  }
+
+  &:after {
+    clear:both;
+  }
+
+  & {
+    *zoom:1;
+  }
+}
+
+
+
+
+
+@for $i from 1 through map_get(map_get($gridy,cells),cell-columns) {
+  .c-xs-#{$i} , .c-s-#{$i},.c-m-#{$i},.c-l-#{$i}{@extend %col ;}
+}
+.c-xs-#{ map_get(map_get($gridy,cells),cell-columns)} ,
+.c-s-#{ map_get(map_get($gridy,cells),cell-columns)},
+.c-m-#{ map_get(map_get($gridy,cells),cell-columns)},
+.c-l-#{map_get(map_get($gridy,cells),cell-columns)}{
+  margin-left: 0;
+  margin-right: 0
+}
+
+
+/*  Last  */
+
+%last{
+  @if(map_get($gridy,flow) == ltr){
+    float: right;
+  }@else if(map_get($gridy,flow) == rtl){
+    float: left;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

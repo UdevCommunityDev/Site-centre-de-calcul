@@ -1,0 +1,46 @@
+%btn{
+  @extend %headers ;
+  text-align: center;
+  padding:10px 26px;
+  border-width: 2px;
+  border-style: solid;
+  transition-duration:0.5s ;
+  display: inline-block;
+}
+
+.btn-header{
+  @extend %btn ;
+  color: white;
+  border-color:white;
+  &:hover{
+    background-color: white;
+    color: #000b18
+  }
+}
+
+.btn{
+  @extend %btn ;
+}
+
+
+@mixin Generate-buttons($color){
+  color: $color;
+  border-color:  $color;
+  &:hover{
+    background-color: $color;
+    color: white;
+  }
+  &:active{
+    background-color: $color;
+  }
+}
+
+.btn-danger{
+  @include Generate-buttons($error-color) ;
+}
+.btn-info{
+  @include Generate-buttons($main-color) ;
+}
+.btn-success{
+  @include Generate-buttons($success-color) ;
+}

@@ -1,0 +1,35 @@
+.blog-section{
+  .posts{
+    padding:0;
+    float: left;
+    .item{
+      padding: 5px 10px;
+      .title{
+        color: $main-color;
+      }
+      .date{
+        font-size: 12px;
+        color: #999999;
+        float: right;
+      }
+      .author{
+        color: $darken-main-color;
+        font-size: 12px;
+      }
+      .excerpt{
+        font-size: 14px;
+        font-family: "Roboto Regular", sans-serif;
+      }
+      .hashtag{
+        color: $main-color;
+        font-size: 14px;
+        font-weight: normal;
+        padding: 5px;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+}

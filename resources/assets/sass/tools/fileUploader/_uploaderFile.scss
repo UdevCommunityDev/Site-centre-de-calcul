@@ -1,0 +1,75 @@
+.file-field{
+  .uploadedFile_preview_container{
+    min-height: 150px;
+    padding: 0;
+    background: url('../img/empty-img-placeholder.png') no-repeat center;
+    margin-bottom:10px;
+    cursor: pointer;
+    @extend .under_line_style ;
+    &:after{
+      transform: scaleX(1);
+    }
+
+  }
+  label.f-control{
+    transform-origin: 0 50%;
+    transform: translateY(24px);
+    width: auto;
+    color: lighten(#000000, 75);
+    transition-duration: 0.3s;
+    transition-property: transform, font-size;
+    @extend .f-control ;
+
+  }
+  & {
+    &.is-focused {
+      label.f-control {
+        transform: translateY(0) scale(.75);
+        color: $color-default;
+      }
+      &.f-group-error {
+        .uploadedFile_preview_container{
+          &:after{
+            background-color: $error-color;
+          }
+        }
+        label.f-control {
+          color: $error-color;
+        }
+      }
+      &.f-group-warning {
+        .uploadedFile_preview_container{
+          &:after{
+            background-color: $warning-color;
+          }
+        }
+        label.f-control {
+          color: $warning-color;
+        }
+      }
+      &.f-group-success {
+        .uploadedFile_preview_container{
+          &:after{
+            background-color: $success-color;
+          }
+        }
+        label.f-control {
+          color: $success-color;
+        }
+      }
+    }
+  }
+}
+
+#uploadedFile_input{
+  display: none;
+  visibility: hidden;
+}
+
+#uploadedFile_preview{
+  display: none;
+}
+
+
+
+

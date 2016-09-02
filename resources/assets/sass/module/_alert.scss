@@ -1,0 +1,34 @@
+.alert-container{
+  text-align: center;
+  .uci-alert{
+    padding: 15px 10px;
+    margin: 15px auto;
+    font-size: 16px;
+    text-align: center;
+    min-width: 350px;
+    font-family:"Roboto Regular",sans-serif;
+    border: 2px solid transparent;
+    z-index: 70000;
+    display: inline-block;
+    &.info{
+      color: $main-color;
+      border-color: $main-color;
+      background-color: rgba($main-color,0.2);
+    }
+    &.success{
+      color: $success-color;
+      border-color: $success-color;
+      background-color: rgba($success-color,0.2);
+    }
+    &.error{
+      color: $error-color;
+      border-color: $error-color;
+      background-color: rgba($error-color,0.2);
+    }
+    &.warning{
+      color: $warning-color;
+      border-color: $warning-color;
+      background-color: rgba($warning-color,0.2);
+    }
+  }
+}
