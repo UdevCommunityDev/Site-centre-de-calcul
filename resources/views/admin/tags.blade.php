@@ -65,7 +65,7 @@
                                             </td>
                                             <td class="c-xs-3">
                                                 @if($admin)
-                                                    @if($tag->slug == 'non-classé')
+                                                    @if($tag->slug == 'divers')
                                                         No action available
                                                     @else
                                                         {!! Form::open(['method' => 'DELETE' , 'action' =>['TagsController@destroy',$tag->slug] , 'class' => 'form']) !!}

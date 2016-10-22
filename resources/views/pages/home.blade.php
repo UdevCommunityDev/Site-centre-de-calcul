@@ -15,7 +15,7 @@
                         La Direction Générale de la Recherche Scientifique et du Développement Technologique
                         du ministère de l’Enseignement Supérieure et la Recherche Scientifique (DGRSDT),
                         vient de mettre à la disposition des chercheurs de l'Université des Science et de Technologie d'Oran (USTO),
-                        un cluster leur permettant d’effectuer du calcul intttensif ou du HPC "High Performance Computing".
+                        un cluster leur permettant d’effectuer du calcul intensif ou du HPC "High Performance Computing".
 
                     </p>
                 </div>
@@ -135,21 +135,22 @@
                    <h1>Actualités</h1>
                </div>
                <div class="section-content">
-                   <div class="c-xs-hide c-s-5 pic">
-                       <img src="img/news-pic.png" alt="">
-                   </div>
-                   <div class="c-xs-12 c-s-6 text">
-                       @foreach($posts as $post)
-                           <div class="c-xs-12 item">
-                               <div class="c-xs-2  c-xs-hide">
-                                   <i class="icon icon-news-icon"></i>
-                               </div>
-                               <div class="c-xs-12 c-s-10 new">
-                                   <h3>{{link_to_action('PostsController@show',$post->title,[$post->category->slug,$post->slug])}}</h3>
-                                   <p>
-                                       {{$post->excerpt}}...{{link_to_action('PostsController@show','lire la suite',[$post->category->slug,$post->slug],['class'=>'hashtag'])}}
-                                   </p>
-                               </div>
+                   <div class="c-xs-12 text">
+                       @foreach($posts->chunk(2) as $p)
+                           <div class="row">
+                               @foreach($p as $post)
+                                   <div class="c-xs-12 c-s-6 item">
+                                       <div class="c-xs-2  c-xs-hide">
+                                           <i class="icon icon-news-icon"></i>
+                                       </div>
+                                       <div class="c-xs-12 c-s-10 new">
+                                           <h3>{{link_to_action('PostsController@show',$post->title,[$post->category->slug,$post->slug])}}</h3>
+                                           <p>
+                                               {{$post->excerpt}}...{{link_to_action('PostsController@show','lire la suite',[$post->category->slug,$post->slug],['class'=>'hashtag'])}}
+                                           </p>
+                                       </div>
+                                   </div>
+                               @endforeach
                            </div>
                        @endforeach
                    </div>
