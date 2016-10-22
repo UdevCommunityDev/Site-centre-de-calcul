@@ -27,9 +27,21 @@ class UserRolesAttach
      */
     public function handle(AttachUser $event)
     {
-        $member = Role::where(['name' => 'Member'])->get()->first(); ;
-        
-        $event->user->attachRole($member); 
+        if($event->ifOwner){
+
+            $roles = Role::all() ;
+
+            $event->user->attachRoles($roles);
+            
+        }else{
+            
+            $member = Role::where(['name' => 'Member'])->get()->first(); ;
+
+            $event->user->attachRole($member);
+
+        }
+
+
         
     }
 }

@@ -29,7 +29,7 @@ class RouteServiceProvider extends ServiceProvider
     public function boot(Router $router)
     {
         $router->bind('slug', function ($value) {
-
+            
             return Post::where('slug', $value)->firstOrFail();
 
         });

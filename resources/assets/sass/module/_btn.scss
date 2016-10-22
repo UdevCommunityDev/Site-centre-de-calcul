@@ -2,8 +2,7 @@
   @extend %headers ;
   text-align: center;
   padding:10px 26px;
-  border-width: 2px;
-  border-style: solid;
+  border: 2px solid;
   transition-duration:0.5s ;
   display: inline-block;
 }

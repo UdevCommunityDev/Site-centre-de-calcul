@@ -117,7 +117,7 @@ class UsersController extends Controller
 
               DB::table('pre_register')->insert(compact('email','token','created_at','updated_at')) ;
           }
-           Mail::send('mail.sendMail',['content' => url('register/'.$token)],function ($message) use($email){
+           Mail::send('mail.registerMail',['content'=>'To register click this link : ' ,'url' => url('register/'.$token),'site_url'=>config('app.url')],function ($message) use($email){
     
                $message->to($email)->subject('Uci register link ') ;
     

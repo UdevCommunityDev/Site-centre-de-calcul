@@ -1,6 +1,15 @@
 .section{
+  min-height:92vh;
+  .section-title h1{
+    text-align: center;
+    color: $main-color;
+    &:after{
+      @extend %under_line ;
+      background-color: $main-color;
+    }
+  }
   &:nth-child(even){
-    background-color: #f5f5f5;
+    background-color: #ececec;
   }
   .section-content{
     margin-top: 100px;

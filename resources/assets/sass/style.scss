@@ -78,6 +78,18 @@
 
 $main-color :#1fa7ff;
 $darken-main-color : #0a427f;
+
+/* Extends */
+
+%under_line{
+  content: '';
+  display: block;
+  height: 2px;
+  width: 65px;
+  clear: both;
+  background-color: white;
+  margin: 40px auto;
+}
 /* BASIC */
 @import "module/basic";
 @import "module/btn";

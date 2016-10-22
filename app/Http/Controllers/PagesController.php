@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests;
+use App\Post;
 use App\Role;
 use App\User;
 
@@ -15,7 +16,9 @@ class PagesController extends Controller
 
     public function home()
     {
-        return view("pages.home") ;
+        $posts = Post::latest('published_at')->published()->limit(2)->get() ;
+        
+        return view("pages.home",compact('posts')) ;
     }
 
     public function about()

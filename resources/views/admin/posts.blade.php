@@ -39,7 +39,7 @@
                                              <a href="" class="post-published-at">{{$post->publishedAt()}}</a>
                                              <br>
                                              @if($post->lastUpdate())
-                                                 <span class="last-update">last update ({{$post->lastUpdate()}})</span>
+                                                 <span class="last-update">last update ({{$post->updated_at}})</span>
                                              @endif
                                          </td>
                                          <td class="c-xs-3">

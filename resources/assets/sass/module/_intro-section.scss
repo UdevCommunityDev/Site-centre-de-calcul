@@ -1,78 +1,3 @@
-/*.intro-section{
-  h2{
-    color: #1fa7ff;
-    font-family: "Myriad Pro re", sans-serif;
-    border-bottom: 1px solid #1fa7ff;
-  }
-  h3{
-    color: rgba($main-color,0.8);
-    font-style: italic;
-   }
-  h4{
-    color: #0A68BE;
-    &:before{
-      content: '> ';
-    }
-  }
-  .summary{
-    .item{
-      text-align: center;
-      margin:50px 0 0 0 ;
-      padding: 50px;
-      .item-title,.item-description{
-        display: block;
-        text-align: center;
-      }
-      .item-title,.hashtag{
-        color: $main-color;
-      }
-      .hashtag{
-        font-size: 16px;
-        font-weight:normal;
-      }
-
-    }
-  }
-  .service-description{
-    hr{
-      width: 30%;
-      margin: 50px auto ;
-    }
-    ul{
-      list-style: none;
-    }
-    .features{
-      color: $main-color;
-      li{
-        margin: 15px 0 ;
-        font-size: 16px;
-        font-family: "Roboto Regular",sans-serif;
-      }
-    }
-    .service-into{
-      margin: 30px 0 55px 0;
-    }
-    .components{
-      margin: 10px 0;
-    }
-    .cluster{
-      padding: 20px;
-      box-shadow: 0 0 2px rgba(#999999,.5);
-      .data{
-        padding: 10px 50px;
-      }
-      table{
-        tr{
-          margin: 5px 0 ;
-          border-bottom: 1px solid rgba($main-color,.2);
-        }
-      }
-    }
-
-  }
-
-}*/
-
 .intro-section{
   .container{
     padding-top: 50px;
@@ -142,3 +67,63 @@
   }
 }
 
+.connection-section{
+  background-image: url(../img/conx-pic.png);
+  background-size: cover;
+  .container{
+    text-align: center;
+    padding-top: 54px;
+    padding-bottom: 54px;
+  }
+  .news--description{
+    text-align: center;
+    p{
+      @extend %color-white;
+      line-height:32px;
+      margin-top: 0;
+    }
+  }
+  .news--title{
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    &:after{
+      background-color: white
+    }
+  }
+}
+
+.news-section{
+  /*.section-title h1{
+    text-align: center;
+    color: $main-color;
+    &:after{
+      @extend %under_line ;
+      background-color: $main-color;
+    }
+  }*/
+  .text{
+    float: right;
+    h3 a , .hashtag{
+      color: $main-color ;
+      font-weight: normal;
+    }
+  }
+  .icon{margin-top: 17px}
+  .item{
+    margin-bottom: 20px;
+    h3{
+      text-align: start;
+      font-weight: normal;
+      color: $main-color;
+    }
+    p{
+      text-align: start;
+    }
+  }
+  .new{
+    &:after{
+      margin: 40px 0 ;
+    }
+  }
+}

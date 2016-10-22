@@ -159,7 +159,6 @@ class Post extends Model
      *
      * @param $post
      * @param $ip
-     * @internal param $id
      */
     public function seenBy($post , $ip)
     {

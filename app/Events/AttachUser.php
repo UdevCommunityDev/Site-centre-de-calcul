@@ -14,16 +14,23 @@ class AttachUser extends Event
      * @var User
      */
     public $user;
+    /**
+     * @var
+     */
+    public $ifOwner;
 
     /**
      * Create a new event instance.
      *
      * @param User $user
+     * @param  $ifOwner
      */
-    public function __construct(User $user)
+    public function __construct(User $user,$ifOwner)
     {
         //
         $this->user = $user;
+        
+        $this->ifOwner = $ifOwner;
     }
 
     /**

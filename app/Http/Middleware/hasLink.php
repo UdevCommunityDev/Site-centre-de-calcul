@@ -17,23 +17,44 @@ class hasLink
      */
     public function handle($request, Closure $next)
     {
+
         $token = $request->route('token') ;
-        
-        $member = DB::table('pre_register')->where(['token' => $token]);
-        
-        if((!is_null($token) && $member->exists()) || is_null(User::find(1))){
+
+
+        if(is_null($token)){
             
-            return $next($request);
+
+            if(!User::select(["*"])->exists()){
+                
+                return $next($request);
+
+            }else{
+
+                flash('These credentials do not match our records.','error')  ;
+
+                return redirect('/home');
+            }
+
+
+        }else{
+            
+
+            $member = DB::table('pre_register')->where(['token' => $token]);
+
+            if($member->exists()) {
+
+                return $next($request);
+
+            }else{
+
+                flash('These credentials do not match our records.','error')  ;
+
+                return redirect('/home');
+            }
+            
             
         }
-
-            /*  ;*/
-
-           
+    
         
-
-        flash('These credentials do not match our records.','error')  ;
-
-        return redirect('/home');
     }
 }

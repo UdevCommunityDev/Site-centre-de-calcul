@@ -45,7 +45,7 @@ class PostsController extends Controller
     public function index()
     {
         $posts = Post::latest('published_at')->published()->paginate(6);
-
+        
         return view('posts.index',compact('posts')) ;
     }
     
@@ -243,12 +243,12 @@ class PostsController extends Controller
     {
         $response = $category->checkForExistence(['id', 'slug'], [$post->category_id, $category->slug]);
 
-        if ($response) {
+        if (!$response) {
 
             return view('posts.show', compact('post','category'));
 
         } else {
-            
+
             abort(404,'Article inexistant');
 
             return false;
