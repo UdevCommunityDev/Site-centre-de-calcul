@@ -34,7 +34,7 @@
                                      <tr class="c-xs-12">
                                          <td class="c-xs-3">{{link_to_action('PostsController@show',$post->title,[$post->category->slug,$post->slug],['class' =>'post-title'])}}</td>
                                          <td class="c-xs-2">{{link_to_action('CategoriesController@show',$post->category->name,[$post->category->slug],['class' =>'post-category'])}}</td>
-                                         <td class="c-xs-2"><a href="{{url('profile/'.$post->user->id)}}" class="post-author">{{$post->user->name}}</a></td>
+                                         <td class="c-xs-2"><a href="" class="post-author">{{$post->user->name}}</a></td>
                                          <td class="c-xs-2">
                                              <a href="" class="post-published-at">{{$post->publishedAt()}}</a>
                                              <br>

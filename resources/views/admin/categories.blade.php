@@ -65,7 +65,7 @@
                                             </td>
                                             <td class="c-xs-3">
                                                @if($admin)
-                                                   @if($category->slug == 'divers')
+                                                   @if($category->slug == 'non-classé')
                                                         No action available
                                                     @else
                                                         {!! Form::open(['method' => 'DELETE' , 'action' =>['CategoriesController@destroy',$category->slug] , 'class' => 'form']) !!}

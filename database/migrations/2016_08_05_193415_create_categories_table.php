@@ -28,8 +28,8 @@ class CreateCategoriesTable extends Migration
 
         DB::table('categories')->insert([
             [
-                'name'        => 'Divers' ,
-                'slug'        => 'divers' ,
+                'name'        => 'non classé' ,
+                'slug'        => 'non-classé' ,
                 'description' => 'All posts associated with this category don\'t have a specific category' ,
                 'created_at'  => Carbon::now() ,
                 'updated_at'  => Carbon::now() ,

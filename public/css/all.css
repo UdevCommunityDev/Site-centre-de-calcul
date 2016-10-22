@@ -1900,8 +1900,7 @@ hr {
   .blog-section .posts .item {
     padding: 5px 10px; }
     .blog-section .posts .item .title {
-      color: #1fa7ff;
-      font-weight: normal; }
+      color: #1fa7ff; }
     .blog-section .posts .item .date {
       font-size: 12px;
       color: #999999;
@@ -1919,19 +1918,6 @@ hr {
       padding: 5px; }
       .blog-section .posts .item .hashtag:hover {
         text-decoration: underline; }
-  .blog-section .posts .pic {
-    height: 20vh; }
-    .blog-section .posts .pic img {
-      height: auto;
-      width: auto;
-      transform: translateY(-50%);
-      transition-duration: 0.5s; }
-  .blog-section .posts:hover .pic {
-    height: auto; }
-    .blog-section .posts:hover .pic img {
-      height: 100%;
-      width: 100%;
-      transform: translateY(0); }
 
 .alert-container {
   text-align: center; }

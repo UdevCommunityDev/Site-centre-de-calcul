@@ -16,7 +16,7 @@ class PagesController extends Controller
 
     public function home()
     {
-        $posts = Post::latest('published_at')->published()->limit(4)->get() ;
+        $posts = Post::latest('published_at')->published()->limit(2)->get() ;
         
         return view("pages.home",compact('posts')) ;
     }

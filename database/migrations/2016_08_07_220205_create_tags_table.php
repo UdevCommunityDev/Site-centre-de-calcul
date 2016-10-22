@@ -38,8 +38,8 @@ class CreateTagsTable extends Migration
 
         DB::table('tags')->insert([
             [
-                'name'        => 'Divers' ,
-                'slug'        => 'divers' ,
+                'name'        => 'non classé' ,
+                'slug'        => 'non-classé' ,
                 'description' => 'All posts associated with this hashtag don\'t have a specific hashtag' ,
                 'created_at'  => Carbon::now() ,
                 'updated_at'  => Carbon::now() ,

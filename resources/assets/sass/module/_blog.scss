@@ -6,7 +6,6 @@
       padding: 5px 10px;
       .title{
         color: $main-color;
-        font-weight:normal;
       }
       .date{
         font-size: 12px;
@@ -28,26 +27,6 @@
         padding: 5px;
         &:hover{
           text-decoration: underline;
-        }
-      }
-    }
-    .pic{
-      height: 20vh;
-      img{
-        height: auto;
-        width: auto;
-        transform: translateY(-50%);
-        transition-duration: 0.5s;
-      }
-    }
-
-    &:hover{
-      .pic{
-        height: auto;
-        img{
-          height: 100%;
-          width: 100%;
-          transform: translateY(0);
         }
       }
     }

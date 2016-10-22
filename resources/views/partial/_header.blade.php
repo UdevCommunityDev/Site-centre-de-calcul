@@ -14,12 +14,12 @@
             <a href="{{url('/home')}}" id="home" class="item">Acceuil</a>
             <a href="{{url('/blog')}}"  id="blog" class="item">Blog</a>
             <a href="{{url('/join')}}"  id="join" class="item">Inscription</a>
-            @if(Auth::check())
-                <a href="{{url("/profile/$user->id")}}"  id="profile" class="item">{{$user->name}}</a>
-            @endif
+            <a href="{{url('/about')}}" id="about" class="item">À Propos</a>
+            <a href="{{url('/contact')}}"  id="contact" class="item">Contact</a>
             <span id="more-items-trigger" class="more-items-trigger" ></span>
             <div id="more-items" class="more-items">
                 @if(Auth::check())
+                    <a href="{{url("/profile/$user->id")}}"  id="contact" class="item">{{$user->name}}</a>
                     @if($user->hasRole('Editor'))
                         <a href="#" id="setting-dropdown" class="item">Setting</a>
                         <div class="item-container" id="item-container">
