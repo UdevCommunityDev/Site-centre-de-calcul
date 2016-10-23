@@ -22,11 +22,11 @@ Route::get('/',function (){
 
 Route::get('/home','PagesController@home');
 
-Route::get('/about','PagesController@about');
+//Route::get('/about','PagesController@about');
 
 Route::get('/blog','PostsController@index');
 
-Route::get('/contact','PagesController@contact');
+//Route::get('/contact','PagesController@contact');
 
 Route::get('/join','PagesController@join');
 
