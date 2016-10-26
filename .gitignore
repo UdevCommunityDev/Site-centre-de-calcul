@@ -1,6 +1,7 @@
 /vendor
 /node_modules
 /public
+!/public/js
 public/uploaded/posts/p_images/tn/*
 public/uploaded/users/u_images/tn/*
 public/uploaded/posts/p_images/*
