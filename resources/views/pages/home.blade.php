@@ -135,21 +135,22 @@
                    <h1>Actualités</h1>
                </div>
                <div class="section-content">
-                   <div class="c-xs-hide c-s-5 pic">
-                       <img src="img/news-pic.png" alt="">
-                   </div>
-                   <div class="c-xs-12 c-s-6 text">
-                       @foreach($posts as $post)
-                           <div class="c-xs-12 item">
-                               <div class="c-xs-2  c-xs-hide">
-                                   <i class="icon icon-news-icon"></i>
-                               </div>
-                               <div class="c-xs-12 c-s-10 new">
-                                   <h3>{{link_to_action('PostsController@show',$post->title,[$post->category->slug,$post->slug])}}</h3>
-                                   <p>
-                                       {{$post->excerpt}}...{{link_to_action('PostsController@show','lire la suite',[$post->category->slug,$post->slug],['class'=>'hashtag'])}}
-                                   </p>
-                               </div>
+                   <div class="c-xs-12 text">
+                       @foreach($posts->chunk(2) as $p)
+                           <div class="row">
+                               @foreach($p as $post )
+                                   <div class="c-xs-6 item">
+                                       <div class="c-xs-2  c-xs-hide">
+                                           <i class="icon icon-news-icon"></i>
+                                       </div>
+                                       <div class="c-xs-12 c-s-10 new">
+                                           <h3>{{link_to_action('PostsController@show',$post->title,[$post->category->slug,$post->slug])}}</h3>
+                                           <p>
+                                               {{$post->excerpt}}...{{link_to_action('PostsController@show','lire la suite',[$post->category->slug,$post->slug],['class'=>'hashtag'])}}
+                                           </p>
+                                       </div>
+                                   </div>
+                               @endforeach
                            </div>
                        @endforeach
                    </div>
@@ -222,10 +223,4 @@
     <section class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3852.7233344069773!2d-0.5813110929626214!3d35.70798473238949!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7e628c55555555%3A0xef7ff1b0e92ef57f!2sOran+University+of+Science+and+Technology+-+Mohamed+Boudiaf!5e0!3m2!1sen!2sdz!4v1469614753532" id="map" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
     </section>
-
-
-@stop
-
-@section('scripts')
-    <script type="application/javascript" src="{{asset("js/tabs.js")}}"></script>
 @stop

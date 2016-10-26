@@ -6,6 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Tag extends Model
 {
+
+    use Helpers ;
+    
+    
     protected $fillable = ['name' , 'slug' ,'description'] ;
 
     public function posts()

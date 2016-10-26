@@ -34,9 +34,5 @@
 
     @include('partial._default_scripts')   {{-- Default scripts --}}
 
-    @yield('scripts')   {{-- Costum Scripts --}}
-
-
-
 </body>
 </html>

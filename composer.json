@@ -22,6 +22,7 @@
     },
     "autoload": {
         "files": [
+            "app/Traits/Helpers.php",
             "app/Traits/PhotoManager.php",
             "app/models/Permission.php",
             "app/models/Role.php"

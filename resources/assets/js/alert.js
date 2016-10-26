@@ -6,4 +6,4 @@ $(document).ready(function () {
    $('#alert-container')
        .delay(4000)
        .slideUp(500)
-});
+});    

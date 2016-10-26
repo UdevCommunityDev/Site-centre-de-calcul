@@ -1,5 +1,7 @@
 <?php
+use App\Events\AttachUser;
 use App\Events\GenerateRoles;
+use App\User;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 
@@ -57,7 +59,8 @@ class EntrustSetupTables extends Migration
         
         // Event to populate roles 
         
-        event(new GenerateRoles()) ; 
+        event(new GenerateRoles()) ;
+        event(new AttachUser(User::where('id',1)->get()->first(),true)) ;
     }
 
     /**

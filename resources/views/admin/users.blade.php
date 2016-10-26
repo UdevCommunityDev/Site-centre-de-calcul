@@ -44,7 +44,7 @@
                                             @include('admin.users._userRow',['role' => 'Admin'])
                                         @elseif($member->roles()->count() == 2)
                                             @include('admin.users._userRow',['role' => 'Editor'])
-                                        @elseif($member->roles()->count() == 1)
+                                        @else
                                             @include('admin.users._userRow',['role' => 'Member'])
                                         @endif
                                     @endforeach

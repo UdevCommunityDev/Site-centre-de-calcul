@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Info extends Model
 {
+    use Helpers ;
+    
     protected $fillable = [
         'first_name' ,
         'last_name',

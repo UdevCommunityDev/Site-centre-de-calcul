@@ -97,10 +97,7 @@
   /*.section-title h1{
     text-align: center;
     color: $main-color;
-    &:after{
-      @extend %under_line ;
-      background-color: $main-color;
-    }
+
   }*/
   .text{
     float: right;
@@ -123,7 +120,10 @@
   }
   .new{
     &:after{
-      margin: 40px 0 ;
+      @extend %under_line ;
+      float:left ;
+      width: 35%;
+      background-color: $main-color;
     }
   }
 }

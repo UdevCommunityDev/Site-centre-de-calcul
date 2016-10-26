@@ -20,6 +20,25 @@ elixir(function(mix) {
             'normalize.css',
             'select.css',
             'app.css'
-         ]); 
+         ])
+        .scripts([
+            'jq.js',
+            'alert.js',
+            'carousel.js',
+            'caroudsel.js',
+            'fileUploader.js',
+            'createPostJs.js',
+            'form.js',
+            'live_slug.js',
+            'nav_items.js',
+            'script.js',
+            'select.js',
+            'swa.js',
+            'sweetalert.js',
+            'tabs.js',
+            'tinycme.js'
+        ])
+    
+    ; 
 });
 

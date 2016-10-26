@@ -1,7 +1,12 @@
 <?php
 
+use App\Events\AttachUser;
+use App\User;
+use Carbon\Carbon;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
 
 class CreateUsersTable extends Migration
 {
@@ -20,6 +25,16 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
+
+        DB::table('users')->insert([
+            'email' => env('OWNER_EMAIL'),
+            'name' => env('OWNER_NAME'),
+            'password' => bcrypt(env('OWNER_PASSWORD')) ,
+            'created_at'  => Carbon::now() ,
+            'updated_at'  => Carbon::now() ,
+        ]);
+        
+       
     }
 
     /**

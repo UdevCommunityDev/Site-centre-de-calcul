@@ -1500,7 +1500,7 @@ body, .site-content, .site-cache {
 /**************************/
 /* VARIABLES */
 /* Extends */
-.section .section-title h1:after, .section .section-title .contact-section .information .title:after, .contact-section .information .section .section-title .title:after {
+.news-section .new:after, .section .section-title h1:after, .section .section-title .contact-section .information .title:after, .contact-section .information .section .section-title .title:after {
   content: '';
   display: block;
   height: 2px;
@@ -1693,10 +1693,7 @@ hr {
   /*.section-title h1{
     text-align: center;
     color: $main-color;
-    &:after{
-      @extend %under_line ;
-      background-color: $main-color;
-    }
+
   }*/ }
   .news-section .text {
     float: right; }
@@ -1714,7 +1711,9 @@ hr {
     .news-section .item p {
       text-align: start; }
   .news-section .new:after {
-    margin: 40px 0; }
+    float: left;
+    width: 35%;
+    background-color: #1fa7ff; }
 
 .section {
   min-height: 92vh; }

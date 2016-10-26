@@ -69,6 +69,7 @@ class AdminController extends Controller
         $roles = ['' => ''] + $roles->toArray() ;
 
         $verifiedUsers = DB::table('pre_register')->where(['verified' => false])->latest('updated_at')->get() ;
+//        dd($members) ;
 
         return view('admin.users',compact('members','users','roles','verifiedUsers'));
 

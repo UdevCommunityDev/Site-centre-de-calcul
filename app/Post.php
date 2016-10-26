@@ -10,6 +10,8 @@ use Jenssegers\Date\Date;
 
 class Post extends Model
 {
+    use Helpers ;
+    
     protected $fillable = [
         'title',
         'content',
