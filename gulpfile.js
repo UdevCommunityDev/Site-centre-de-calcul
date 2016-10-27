@@ -37,7 +37,13 @@ elixir(function(mix) {
             'sweetalert.js',
             'tabs.js',
             'tinycme.js'
+        ]).version([
+            'css/all.css',
+            'js/all.js',
         ])
+
+
+
     
     ; 
 });
