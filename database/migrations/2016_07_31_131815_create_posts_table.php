@@ -30,6 +30,16 @@ class CreatePostsTable extends Migration
             $table->timestamp('published_at') ;
             $table->timestamps();
         });
+        Schema::create('post_tag', function (Blueprint $table) {
+
+            $table->integer('post_id')->unsigned() ;
+            $table->foreign('post_id')->references('id')->on('posts')->onDelete('cascade') ;
+
+            $table->integer('tag_id')->unsigned();
+            $table->foreign('tag_id')->references('id')->on('tags')->onDelete('cascade') ;
+
+            $table->timestamps();
+        });
     }
 
     /**
