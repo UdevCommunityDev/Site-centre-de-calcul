@@ -1,0 +1,16 @@
+.form{
+  .f-fieldset{
+    border: 5px solid  $color-default ;
+    padding: 20px 30px;
+
+
+    .f-legend{
+      border: 2px solid $color-default  ;
+      font-family: "Roboto Regular",sans-serif;
+      color: $color-default;
+      font-weight: bold;
+      font-size: 20px;
+      padding: 5px 20px;
+    }
+  }
+}

@@ -1,0 +1,267 @@
+/*--------------------*\
+   Grid Mixins
+\*--------------------*/
+
+
+//  Variables initialization
+
+
+$gridy-containers: map_get($gridy,container) ;
+
+
+$gridy-rows : map_get($gridy,rows) ;
+
+
+$gridy-cells : map_get($gridy,cells) ;
+
+
+$gridy-debug : map_get($gridy,cells) ;
+
+
+
+// Container Mixins
+
+
+
+@mixin container-gutters($gutters){
+  $width:map_get($gridy-containers,container);
+  $position:(map_get($gridy-containers,gutter-position));
+
+  @if(type_of($width) == "string" or $width == auto ){
+    $width:100% ;
+  }
+
+
+  @if(($gutters) != false and type_of($gutters) == "number" ){
+
+    $gutters : $gutters ;
+
+    $value: 0 ;
+
+    @if((map_get($gridy,math) == static) and (unit($gutters) == "px")){
+
+      $value : $gutters;
+
+    }@else if((unit($gutters) != "px")) {
+
+      $value : $width * $gutters  ;
+
+    }@else{
+
+      $value:0
+
+    }
+
+
+    @if($position == left){
+
+      padding-left: round($value);
+
+    }@else if($position == right){
+
+      padding-right: round($value);
+
+    }@else{
+
+      padding-left: round($value * .5)  ;
+
+      padding-right: round($value  * .5 ) ;
+
+    }
+
+  }@else {
+
+    padding-left: 0 ;
+
+    padding-right:0 ;
+
+  }
+
+
+}
+
+
+@mixin reset-gutters($gutters , $level:self){
+
+  $class : null ;
+
+
+  @if($level == self){
+    @include container-gutters($gutters)
+  }@else if($level == child){
+    $class: unquote(".container");
+    #{$class}{
+      @include container-gutters($gutters)
+    }
+  }@else if($level == neighbor){
+    $class: unquote("&.container");
+    #{$class}{
+      @include container-gutters($gutters)
+    }
+  }
+
+}
+
+
+// Generate Debugging
+
+
+
+@mixin Generate-debugging($width){
+
+  // Debugging
+
+  $gutters:map_get($gridy-containers,container-h-gutters);
+
+
+  @if(map_get(map_get($gridy,debug) ,image) != hide){
+
+    $gridy-cells-columns : map_get($gridy-cells,cell-columns) ;
+
+    $gridy-debug-color : map_get(map_get($gridy,debug) ,color) ;
+
+    background-image:linear-gradient(
+
+                     to right,
+                     red,
+                     $gridy-debug-color
+
+
+
+    ), linear-gradient(to bottom, #000 ,transparent 2px, transparent);
+
+
+    background-size: ($width - ($width * $gutters) )/$gridy-cells-columns   map_get(map_get($gridy,debug) ,base-line-height)  ;
+
+
+    background-clip: content-box;
+
+
+
+  }
+
+}
+
+
+
+
+// Generate Container
+
+
+
+@mixin Generate-containers(){
+
+  $width:(map_get($gridy-containers,container));
+  $position:(map_get($gridy-containers,gutter-position));
+
+  .container{
+
+    // container width
+
+    @if(type_of($width) == "string" or $width == auto ){
+      width: 100% ;
+    }@else {
+      width: $width;
+    }
+
+    // container Gutters
+
+
+    @include container-gutters(map_get($gridy-containers, container-h-gutters)) ;
+
+
+    //  Clear fix
+
+
+
+    @extend %clearfix ;
+
+
+    // Debugging
+
+
+    @include Generate-debugging($width) ;
+
+
+  }
+
+}
+
+
+
+
+// Generate Rows
+
+
+
+@mixin Generate-rows(){
+
+ 
+
+}
+
+
+
+//  Generate Cells
+
+
+
+@mixin Generate-cells($prefix){
+  $gridy-cells-columns : map_get($gridy-cells,cell-columns) ;
+  $gridy-cells-h-gutters : map_get($gridy-cells,cell-h-gutters) ;
+  $gridy-cells-v-gutters : map_get($gridy-cells,cell-h-gutters) ;
+
+
+  @for $i from 1 through $gridy-cells-columns{
+    .c-#{$prefix}-#{$i}{
+      $gridy_width :  $i / $gridy-cells-columns * 100% ;
+      width:$gridy-width;
+    }
+    @if($prefix == 'xs'){
+      .c-push-#{$i}{left: $i / $gridy-cells-columns * 100%}
+    }
+  }
+
+  @if($prefix != 'xs'){ .c-push-0{left: 0 ;}}
+
+  .c-xs-center{text-align: center}
+
+
+}
+
+
+
+// Generate Gutters
+
+
+
+@mixin cell-gutters(){
+  $gutters: null ;
+  $gutters :  ( 1 / (map_get($gridy-cells,cell-columns)) * 100%) *  (map_get($gridy-cells,cell-h-gutters))  ;
+  @if(map_get($gridy-cells,cell-gutter-position) == after){
+
+    margin-right: $gutters * .5 ;
+
+  }@else if(map_get($gridy-cells,cell-gutter-position) == before){
+
+    margin-left: $gutters * .5 ;
+
+  }@else if(map_get($gridy-cells,cell-gutter-position) == split){
+
+    margin-left: $gutters * .25 ;
+
+    margin-right: $gutters * .25 ;
+
+  }@else if(map_get($gridy-cells,cell-gutter-position) == inside){
+
+    padding-left: $gutters * .25;
+
+    padding-right: $gutters * .25;
+
+  }
+}
+
+
+
+
+

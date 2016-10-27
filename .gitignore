@@ -1,0 +1,13 @@
+/vendor
+/node_modules
+/public
+public/uploaded/posts/p_images/tn/*
+public/uploaded/users/u_images/tn/*
+public/uploaded/posts/p_images/*
+public/uploaded/users/u_images/*
+/storage
+Homestead.yaml
+Homestead.json
+.env
+.idea/*
+.idea/workspace.xml

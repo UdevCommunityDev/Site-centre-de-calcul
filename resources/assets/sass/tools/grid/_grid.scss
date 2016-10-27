@@ -1,0 +1,100 @@
+@import "variablles";
+@import "mixins";
+@import "extends";
+
+/*--------------------*\
+       Container
+\*--------------------*/
+
+
+@include Generate-containers ;
+
+
+
+/*--------------------*\
+        Cells
+\*--------------------*/
+
+@include Generate-cells('xs') ;
+  .c-s-hide,
+  .c-m-hide,
+  .c-l-hide{display: $dib}
+  .c-xs-hide{display: $dn}
+
+  .c-s-show,
+  .c-m-show,
+  .c-l-show{display: $dn}
+  .c-xs-show{display: $dib}
+
+  .row{
+    width: 100%;
+    @extend %clearfix ;
+  }
+
+  .c-s-center{float: none ; margin: 0  auto ; display: block}
+
+/*--------------------*\
+     Small  Grid
+\*--------------------*/
+
+@media only screen and (min-width: $small){
+
+
+  $bc : rgba(#ff0000 , 0.7) ;
+  @include Generate-cells('s') ;
+
+  .c-xs-hide,
+  .c-m-hide,
+  .c-l-hide{display: $dib}
+  .c-s-hide{display: $dn}
+
+  .c-xs-show,
+  .c-m-show,
+  .c-l-show{display: $dn}
+  .c-s-show{display: $dib}
+}
+
+
+/*--------------------*\
+     Medium Grid
+\*--------------------*/
+
+@media only screen and (min-width: $medium){
+
+  $bc : rgba(#ff0000 , 0.5) ;
+  @include Generate-cells( 'm') ;
+  .c-xs-hide,
+  .c-s-hide,
+  .c-l-hide{display: $dib}
+  .c-m-hide{display: $dn}
+
+  .c-xs-show,
+  .c-s-show,
+  .c-l-show{display: $dn}
+  .c-m-show{display: $dib}
+
+ }
+
+/*--------------------*\
+     Large  Grid
+\*--------------------*/
+
+
+@media only screen and (min-width: $large){
+
+  $bc : rgba(#ff0000 , 0.3) ;
+  @include Generate-cells('l') ;
+  .c-xs-hide,
+  .c-s-hide,
+  .c-m-hide{display: $dib}
+  .c-l-hide{display: $dn}
+
+  .c-s-show,
+  .c-m-show,
+  .c-xs-show{display: $dn}
+  .c-l-show{display: $dib}
+}
+
+
+
+

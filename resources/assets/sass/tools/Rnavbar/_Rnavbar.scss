@@ -1,0 +1,159 @@
+@import "config";
+ $nav-side-gutters : 50px ;
+ body{@extend %absolute}
+.site-header{@extend %clearfix ; z-index: 7000;  position: fixed;width: 100%;}
+
+.header--trigger-box{
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  height: 50px;
+  width: 50px;
+  float: right;
+  cursor: pointer;
+  z-index:9000;
+  border-radius: 65px;
+  background-color: $nav-secondary-color;
+  &:after{
+    content: "";
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 20% ;
+    width: 18px;
+    transform: translate(-50%,-50%);
+    box-shadow :0 10px 0px 1px  #ffffff,0 16px 0 1px  #ffffff ,0 22px 0 1px #ffffff  ;
+  }
+}
+.site-header{
+  position: relative;
+  right: 0;
+  width: 100%;
+
+  .navbar--secondary{
+    background-color: $nav-primary-color;
+    display: block;
+    padding: 0  $nav-side-gutters  ;
+    width: 100%;
+    height:$nav-secondary-height;
+    div{
+      height: 100%;
+    }
+    .nav-left{
+      float: left;
+    }
+    .nav-right{
+      float: right;
+      line-height: 80px;
+      .more-items{
+        line-height: 53px;
+        position: absolute;
+        top:$nav-secondary-height + 5px ;
+        right:$nav-side-gutters - 15px;
+        width: $nav-width;
+        background-color: $nav-secondary-color;
+        height: auto;
+        display: none;
+        .item{
+          margin-right: 0;
+          display: block;
+          text-align: center;
+          &:hover{
+            color: $nav-primary-color;
+          }
+          &:before{
+            padding: 0;
+          }
+        }
+        .item-container{
+          background-color: rgba(#0A427F,0.2);
+          font-size: 14px;
+          height: 0;
+          overflow: hidden;
+          &.open{
+            height: auto;
+          }
+        }
+        &:before{
+          content :"" ;
+          position: absolute;
+          top:-15px ;
+          right: 0;
+          border: 15px solid transparent;
+          border-bottom-color: $nav-secondary-color;
+          border-top: none;
+        }
+        &.is-active{
+          display: block;
+        }
+
+
+      }
+      .more-items-trigger{
+        display: none;
+        border: 7px solid transparent;
+        border-top-color: $nav-secondary-color;
+        border-bottom: none;
+        position: absolute;
+        right: 44px;
+        top: 36px;
+        cursor: pointer;
+        transition-duration: 0.3s;
+        &:hover{
+          border-top-color: #3DA6D4;
+        }
+        &.show{
+          display: block;
+        }
+       }
+    }
+    .header--logo{
+      float: left;
+      height: 100%;
+      padding: 10px 0 ;
+    }
+
+    .item{
+      transition-duration: 0.3s;
+      margin-right: 30px;
+
+      &:hover{
+        color: #3DA6D4;
+      }
+      &.is-active{
+        color: #3DA6D4;
+      }
+    }
+  }
+}
+
+
+.site-content{
+  transform: scale(1);
+  background-color: rgba(#ffffff,0.95);
+  top: $nav-primary-height +  $nav-secondary-height ;
+  box-shadow: 0 0 30px rgba(#000000,0.4);
+  overflow-y: auto;
+  @extend %absolute ;
+  .site-content-body,
+  .site-content-header,
+  .site-content-right-side,
+  .site-content-left-side{
+    padding: 0;
+  }
+
+  .site-content-body{
+    min-height: 35vh;
+  }
+}
+
+.site-cache{
+  @extend %absolute ;
+  @extend %dpn ;
+  z-index: 5000;
+  background-color: rgba(#000000,0.7);
+}
+
+
+@import "responsiveRnavbar";

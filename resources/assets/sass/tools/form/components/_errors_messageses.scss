@@ -1,0 +1,24 @@
+.messages{
+  margin: 0;
+  padding-top: 5px  ;
+  padding-bottom: 5px  ;
+  li{
+    text-align: start;
+    font-family: "Roboto Regular", sans-serif;
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  &.error{
+    background-color: lighten($error-color,25);
+    color: $error-color;
+  }
+  &.success{
+    background-color: lighten($success-color,25);
+    color: $success-color;
+  }
+  &.warning{
+    background-color: lighten($warning-color,25);
+    color: $warning-color;
+  }
+}

@@ -1,0 +1,100 @@
+
+/*  VARIABLES */
+
+$rm-nav-color : rgba(0, 11, 30, 0.6)!default;
+$rm-side-nav-color : rgba(#00aeef,.8)!default;
+$rm-break-point : 885px!default;
+$rm-width : 250px!default; ;
+$rm-nav-height : 65px!default;
+
+
+/* BASICS */
+
+*{
+  box-sizing: border-box ;
+}
+
+html,body{
+  height: 100%;
+  font-family: "Roboto";
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none ;
+  color: #ffffff;
+}
+
+/* Nav bare  */
+
+.header--nav{
+   transition-duration: 0.5s ;
+ }
+
+
+
+
+/* HEADER */
+
+.header{
+  position: fixed;
+  top:0;
+  left: 0;
+  height: $rm-nav-height;
+  width: 100%;
+  z-index: 7000;
+  @extend %clearfix
+
+}
+.header--logo{
+  height: $rm-nav-height;
+  padding: 7px 0;
+  float: left;
+  font-size: 30px;
+  font-family: "Myriad Pro Regular", sans-serif;
+
+
+}
+.header--nav{
+  line-height: $rm-nav-height - 2px;
+  float: right;
+  .item{
+     display: inline;
+     font-family: "Segoe UI Bold",sans-serif;
+     margin-left: 34px;
+     padding: 0 5px;
+     float: left;
+     &:first-child{
+       margin-left: 0;
+     }
+     &:after{
+      content: '';
+      display: block;
+      height: 2px;
+      width: 0;
+      background-color:#00aeef;
+      bottom:0;
+      transition-duration: 0.2s;
+    }
+    &.is-active:after{
+      @extend .item:after;
+      width: 100%;
+    }
+    &:hover:after {
+      width: 100%;
+    }
+
+  }
+  .usto-logo{
+    display: none;
+  }
+}
+
+.site-content{
+  @extend %clearfix
+}
+
+/* RESPONSIVE */
+@import "responsive";

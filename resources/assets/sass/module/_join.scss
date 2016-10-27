@@ -1,0 +1,34 @@
+.join-section{
+  padding: 50px 0 100px 0 ;
+  .content{
+    padding: 50px;
+  }
+  .join-signup{
+    font-size: 40px;
+    color: $nav-secondary-color;
+    &:after{
+      display: none;
+    }
+  }
+  p{
+    margin-top: 0;
+  }
+  .download{
+    margin-top: 50px;
+  }
+  .title{
+    margin-top: 30px ;
+    display: block;
+    width: 100%;
+    border-bottom:  1px solid $nav-secondary-color;
+    padding: 10px 0;
+    color: $nav-secondary-color;
+  }
+   .join-signup, p , .title ,.icon{
+     text-align: start;
+     float: left;
+   }
+  .download-block{
+    text-align: center; 
+  }
+}

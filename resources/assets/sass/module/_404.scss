@@ -1,0 +1,20 @@
+.section-404{
+  height:89vh;
+  .baseline-1,
+  .baseline-2,
+  .homepage-link,
+  .description-text{
+    text-align: center;
+    display: block;
+  }
+  .baseline-1{
+    color: $main-color;
+    font-size: 140px;
+  }
+  .baseline-2{
+    color: rgba($main-color,.8);
+  }
+  .homepage-link{
+   color: $darken-main-color;
+  }
+}

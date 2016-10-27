@@ -1,0 +1,60 @@
+$color-default : #3da6d4;
+$error-color : #D32F2F ;
+$warning-color : #FF5722 ;
+$success-color : #009688 ;
+.f-group {
+  text-align: start;
+  min-height: 72px;
+  padding: 16px 0 8px 0;
+  position: relative;
+}
+.f-control{
+  position: relative;
+  text-align: start;
+  font-size: 16px;
+  font-family: "Roboto Regular", sans-serif;
+  display: block;
+  font-weight: bold;
+}
+
+
+.text_field_appearance{
+  width: 100%;
+  padding: 8px;
+  line-height: 16px;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+}
+
+.under_line_style{
+  &:after, &:before {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #e7e7e7;
+  }
+  &:after {
+    background-color: $color-default;
+    transform: scaleX(0);
+    transition-duration: 0.3s;
+    transition-property: transform;
+  }
+}
+.label_style{
+  position: relative;
+  height: 38px;
+  top: 38px;
+  background-color: white;
+  line-height: 40px;
+  width: auto;
+  z-index: 5;
+  transform-origin: 0 50%;
+  transition: all 0.3s ;
+  color: lighten(#000000, 75);
+}

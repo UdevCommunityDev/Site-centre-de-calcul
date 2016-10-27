@@ -1,0 +1,77 @@
+.form{
+  .f-group{
+    &.select-field{
+      text-align: start;
+      @extend .under_line_style ;
+
+      select.f-control{
+        @extend .text_field_appearance ;
+        border: 2px solid #e7e7e7;
+        color: lighten(#000000, 75) ;
+        option{
+          color: #000000;
+        }
+
+      }
+      label.f-control{
+       @extend .label_style ;
+       top: 0;
+      }
+      &{
+        &.is-focused {
+          &:after{
+            transform: scaleX(1);
+          }
+          label.f-control {
+            top: 0;
+            left: 0;
+            transform: translateY(0) scale(.75);
+            color: $color-default;
+          }
+          &.f-group-error {
+            select.f-control{
+              color:   $error-color;
+              border-color:  $error-color ;
+            }
+            label.f-control {
+              color:$error-color;
+            }
+            &:after{
+              background-color: $error-color;
+            }
+          }
+          &.f-group-warning {
+            select.f-control{
+              color:   $warning-color;
+              border-color:  $warning-color ;
+            }
+            label.f-control {
+              color:   $warning-color;
+            }
+            &:after{
+              background-color: $warning-color;
+            }
+          }
+          &.f-group-success {
+            select.f-control{
+              color:   $success-color;
+              border-color:  $success-color ;
+            }
+            label.f-control {
+              color:   $success-color;
+            }
+            &:after{
+              background-color: $success-color;
+            }
+          }
+
+        }
+      }
+
+      &.is-focused{
+
+      }
+    }
+
+  }
+}

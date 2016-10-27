@@ -1,0 +1,8 @@
+@media only screen and(min-width: $small) {
+  @import "s/s-main";
+  @import "s/s-connection-section";
+  @import "s/s-contact";
+  @import "s/s-footer";
+  @import "s/s-auth";
+  @import "s/s-create-post";
+}

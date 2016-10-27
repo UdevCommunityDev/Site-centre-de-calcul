@@ -1,0 +1,18 @@
+.site-content-admin-panel{
+  height: 40px;
+  background-color: #24221F;
+  .dash-items{
+    width: 100%;
+    .item{
+      display: inline-block;
+      line-height: 30px;
+      padding: 5px 10px;
+      font-weight:normal;
+      font-size: 14px;
+      float: left;
+      &.is-active,&:hover{
+        background-color: #363F45;
+      }
+    }
+  }
+}

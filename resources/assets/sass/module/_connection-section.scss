@@ -1,0 +1,25 @@
+.connection-section{
+  background-image: url(../img/conx-pic.png);
+  background-size: cover;
+  .container{
+    text-align: center;
+    padding-top: 33vh;
+  }
+  .news--description{
+    text-align: center;
+    p{
+      @extend %color-white;
+      line-height:32px;
+      margin-top: 0;
+    }
+  }
+  .news--title{
+   color: white;
+    &:after{background-color: white}
+  }
+  .btn-news{
+    @extend .btn-header ;
+    margin: 0 auto;
+
+  }
+}

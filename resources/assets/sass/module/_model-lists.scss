@@ -1,0 +1,121 @@
+.model-lists-section{
+  table{
+    thead{
+      border-bottom: 1px solid rgba(#999999,0.4);
+    }
+    tr{
+      padding: 10px 0 ;
+      &:nth-child(even){
+        background-color: rgba(#999999,0.2);
+      }
+    }
+  }
+  .model-title{
+    padding: 0 10px;
+    color: $darken-main-color;
+    text-decoration: underline;
+    display: inline-block;
+  }
+  .sub-title{
+    display: inline-block;
+    padding: 0 10px;
+  }
+  .posts-table,.categories-table,.tags-table{
+
+    .published{
+      color: $success-color;
+
+    }
+    .unpublished{
+      color: $error-color;
+    }
+    .last-update{
+      color: #999999;
+      font-size: 12px;
+    }
+    .add-post-btn{
+      margin: 15px 10px ;
+    }
+    .post-edit,.publish-post{
+      margin: 0  5px;
+      color: $success-color;
+    }
+    .post-title ,
+    .post-author,
+    .post-edit,
+    .category-name,
+    .tag-name,
+    .category-associate,
+    .tag-associate{
+      color: $main-color;
+    }
+    .post-category,
+    .post-published-at,
+    .category-description,
+    .tag-description,
+    .category-edit,
+    .tag-edit{
+      color: $darken-main-color;
+    }
+  }
+  .users-table{
+    padding: 10px;
+    .user_name,.user_created-at{
+      color: $main-color;
+    }
+    .user_email{
+      color : $darken-main-color ;
+    }
+  }
+  .verifiedUser-email,.verifiedUser-created-at{
+    color: $error-color;
+  }
+  .add-user,
+  .add-category,
+  .add-tag,
+  .send-emails,
+  .attach-roles,
+  .received-emails,
+  .read-email,
+  .dashboard-item{
+    padding: 10px 20px;
+  }
+  .received-emails{
+    .item{
+      position: relative;
+      padding: 5px 10px;
+      margin: 5px ;
+      display: block;
+      border-bottom: 1px solid rgba(#999999,0.4);
+
+      &.unread {
+        background-color: rgba(#999999,0.2);
+      }
+
+    }
+    .close-btn{
+      margin: 15px 0;
+    }
+    .email-sender{
+      margin: 3px 0;
+      color: $main-color ;
+    }
+    .email_content{
+      margin: 5px 0 ;
+      font-size: 14px ;
+    }
+  }
+
+  .dashboard{
+    .section-name{
+      color: #999999;
+      text-align: center;
+    }
+  }
+}
+
+.go-back{
+  display: inline-block;
+  color: $main-color;
+  padding: 10px;
+}

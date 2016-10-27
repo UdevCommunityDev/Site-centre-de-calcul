@@ -1,0 +1,25 @@
+.about-section{
+  min-height: 89vh;
+  .section-title{
+    color : $main-color ;
+  }
+  h2{
+    color: #1fa7ff;
+    font-family: "Myriad Pro re", sans-serif;
+    border-bottom: 1px solid #1fa7ff;
+  }
+  h3{
+    color: rgba($main-color,0.8);
+    font-style: italic;
+  }
+  h4{
+    color: #0A68BE;
+    &:before{
+      content: '> ';
+    }
+  }
+  .hashtag{
+    color: $main-color;
+    font-weight: normal;
+  }
+}

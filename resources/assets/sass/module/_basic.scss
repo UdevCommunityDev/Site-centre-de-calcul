@@ -1,0 +1,45 @@
+%headers{
+  font-family: "Myriad Pro re", sans-serif;
+}
+*{box-sizing: border-box}
+body{background-color: #000000}
+
+img{
+  height: 100%;
+  width:100%;
+}
+h1{
+  line-height: 43px;
+  @extend %headers ;
+  font-weight: normal;
+}
+h2{
+  line-height: 24px;
+  @extend %headers ;
+}
+h3{
+  line-height: 24px;
+  font-size: 20px;
+  @extend %headers ;
+}
+
+p{
+  font-family: "Segoe UI Light" , sans-serif;
+  color: #86878b;
+}
+
+a{
+  font-family: "Open Sans" , sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+hr{
+  border: 0;
+  height: 1px;
+  background: #333 linear-gradient(to right, #ccc, #333, #ccc);
+}
+.p{
+  padding: 0;
+}
+
