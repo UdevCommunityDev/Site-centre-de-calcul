@@ -11,9 +11,12 @@ use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
+use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
+use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Mail;
 
 class UsersController extends Controller
@@ -36,7 +39,7 @@ class UsersController extends Controller
 
         $this->middleware('role:Admin')->only(['attacheRole']);
 
-        $this->middleware('role:Member')->only(['storeInfo','publish','show']);
+        $this->middleware('role:Member')->only(['storeInfo','publish']);
     }
 
     /**
@@ -203,6 +206,7 @@ class UsersController extends Controller
      */
     public function storeInfo(Request $request)
     {
+        
         if(!Auth::user()->info()->exists()){
 
             $info = Auth::user()->info()->create($request->all()) ;
@@ -219,7 +223,7 @@ class UsersController extends Controller
 
             if(!is_null($request->file('file'))){
 
-                $this->updatePhoto($info,'pic',$request)  ;
+                $this->updatePhoto($info,'pic',$request->file('file'))  ;
 
             }
 
@@ -282,6 +286,65 @@ class UsersController extends Controller
             return redirect()->back() ;
 
         }
+    }
+
+    public function updateInitInfo(Request $request)
+    {
+        $user = Auth::user() ;
+
+        if(
+
+        $request->input('current_password') &&
+
+        $request->input('password') &&
+
+        $request->input('password_confirm')
+
+        ){
+            $current_pass = $request->input('current_password') ;
+
+            if(Hash::check($current_pass, $user->password)){
+
+                if($request->input('password') === $request->input('password_confirm')){
+
+                    $user->update([
+
+                        'name' => $request->input('name'),
+
+                        'password' => bcrypt($request->input('password')),
+
+                    ]);
+
+                    flash('Your info has been successfully updated' ,'success') ;
+
+                    return redirect()->back() ;
+
+                }else{
+
+                    flash('Invalid password confirm' ,'error') ;
+
+                    return redirect()->back() ;
+
+                }
+                
+            }else{
+                
+                flash('Current password field not match our records' ,'error') ; 
+                
+                return redirect()->back() ; 
+                
+            }
+
+        }
+
+        $user->update([
+            'name' => $request->input('name'),
+        ]);
+
+        flash('Your info has been successfully updated' ,'success') ;
+
+        return redirect()->back() ;
+
     }
 
     /**

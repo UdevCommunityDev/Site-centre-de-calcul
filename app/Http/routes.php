@@ -42,6 +42,8 @@ Route::group(['as' => 'user.',  'middleware' => ['auth']],function (){
 
     Route::get('/profile/{member}/publish','UsersController@publish')->name('publish');
 
+    Route::match(['PATCH','PUT'],'/profile/updateinitinfo','UsersController@updateInitInfo')->name('updateInitInfo');
+
     Route::post('/profile','UsersController@storeInfo')->name('storeInfo');
 
     Route::match(['PATCH','PUT'],'/profile/','UsersController@storeInfo')->name('updateInfo');

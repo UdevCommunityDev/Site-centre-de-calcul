@@ -44,7 +44,7 @@ class PostsController extends Controller
 
     public function index()
     {
-        $posts = Post::latest('published_at')->published()->paginate(6);
+        $posts = Post::latest('published_at')->published()->paginate(10);
         
         return view('posts.index',compact('posts')) ;
     }
@@ -205,7 +205,7 @@ class PostsController extends Controller
 
         $post->tags()->sync($request->input('tag_list'))  ;
 
-        $this->updatePhoto($post,'photo', $request);
+        $this->updatePhoto($post,'photo', $request->file('file'));
 
     }
 

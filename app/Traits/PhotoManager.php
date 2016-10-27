@@ -110,17 +110,22 @@ trait PhotoManager
      */
     private function deletePhoto(Model $model,$relation)
     {
-        if($relation == 'photo'){
+        if(!is_null($model->photo) || !is_null($model->pic)){
 
-            File::delete($model->photo->path, $model->photo->tn_path);
+            if($relation == 'photo'){
 
-        }else if($relation == 'pic'){
 
-            File::delete($model->pic->path, $model->pic->tn_path);
+                File::delete($model->photo->path, $model->photo->tn_path);
 
-        }else{
-            return false ;
+            }else if($relation == 'pic'){
+
+                File::delete($model->pic->path, $model->pic->tn_path);
+
+            }else{
+                return false ;
+            }
         }
+
 
         return true ;
 
@@ -131,27 +136,35 @@ trait PhotoManager
      *
      * @param Model $model
      * @param $relation
-     * @param PostRequest|Request $request
+     * @param PostRequest|Request|UploadedFile $request
      * @return bool
      */
-    private function updatePhoto(Model $model,$relation , Request $request)
+    private function updatePhoto(Model $model,$relation ,UploadedFile $request)
     {
         $this->deletePhoto($model,$relation);
 
-        $fields = $this->moveToFolders($request->file('file'));
+        $fields = $this->moveToFolders($request);
 
         if($relation == 'photo'){
-            
+
             $model->photo()->update($fields);
-            
+
         }else if($relation == 'pic'){
             
-            $model->pic()->update($fields);
+            if(!is_null($model->pic)){
+                
+                $model->pic()->update($fields);
+                
+            }else{
+                
+                $model->pic()->create($fields);
+                    
+            }
             
         }else{
-            
+
             return false ;
-            
+
         }
         return true ;
 

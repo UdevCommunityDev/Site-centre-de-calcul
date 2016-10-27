@@ -7,7 +7,7 @@
 @section('body')
     <section class="section user-info-form">
         <div class="row">
-           <div class="c-xs-12 c-s-10 c-s-center p">
+           <div class="c-xs-12 c-s-8 p">
                <div class="portion">
                    <div class="container">
                        <div class="head">
@@ -19,7 +19,7 @@
                        <hr>
                        {!! Form::model($info = $member->info ,['method' => 'PUT','action' =>'UsersController@storeInfo' , 'class' => 'form','files' => true]) !!}
                        <div class="c-xs-12 c-s-9 profile-info">
-                            <div class="c-xs-12 c-s-6">
+                            <div class="c-xs-12 c-s-8">
                                 <div class="f-group text-field">
                                     {!! Form::label('first_name' ,'First Name: ',['class' => 'f-control']) !!}
                                     {!! Form::text('first_name' ,old('first_name'),['class' => 'f-control']) !!}
@@ -78,6 +78,7 @@
                    </div>
                </div>
            </div>
+            @include('admin.profile')
         </div>
     </section>
 @stop
