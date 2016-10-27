@@ -80,9 +80,9 @@ class AdminController extends Controller
         $pub = $this->post->published();
         $unpub = $this->post->unpublished();
         
-        $npub = count($pub) ;
-        $nunpub = count($unpub) ;
-        
+        $npub = count($pub->get()) ;
+        $nunpub = count($unpub->get()) ;
+
         $published = $pub->paginate(10,['*'],'published_p') ;
         $unpublished = $unpub->paginate(10,['*'],'unpublished_p') ;
 
