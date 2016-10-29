@@ -11,7 +11,8 @@
         "jenssegers/date": "^3.2",
         "Intervention/image": "^2.3",
         "zizaco/entrust": "5.2.x-dev",
-        "laracasts/flash": "^2.0"
+        "laracasts/flash": "^2.0",
+        "ext-gd" : "*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
