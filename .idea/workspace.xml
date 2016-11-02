@@ -2,188 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f53a16f7-70ef-407e-bfe8-78b347a4bd11" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/css/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/conx-pic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/favicon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/icons/cluster-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/icons/home-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/icons/hpc-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/icons/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/icons/mail-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/icons/news-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/icons/s-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/icons/udev-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/icons/use-d-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/into-pic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/main-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/map.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/news-pic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/img/usto.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/googlemap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/responsive-menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/js/tabs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/css/all-25ecb97003.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/jquery.tinymce.min.js" afterPath="$PROJECT_DIR$/public/js/jquery.tinymce.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/langs/readme.md" afterPath="$PROJECT_DIR$/public/js/langs/readme.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/license.txt" afterPath="$PROJECT_DIR$/public/js/license.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/advlist/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/advlist/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/anchor/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/anchor/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/autolink/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/autolink/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/autoresize/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/autoresize/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/autosave/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/autosave/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/bbcode/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/bbcode/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/charmap/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/charmap/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/code/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/code/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/codesample/css/prism.css" afterPath="$PROJECT_DIR$/public/js/plugins/codesample/css/prism.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/codesample/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/codesample/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/colorpicker/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/colorpicker/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/contextmenu/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/contextmenu/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/directionality/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/directionality/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-cool.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-cool.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-cry.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-cry.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-embarassed.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-frown.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-frown.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-innocent.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-kiss.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-laughing.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-money-mouth.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-sealed.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-smile.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-smile.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-surprised.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-tongue-out.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-undecided.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-wink.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-wink.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/img/smiley-yell.gif" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/img/smiley-yell.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/emoticons/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/emoticons/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/example/dialog.html" afterPath="$PROJECT_DIR$/public/js/plugins/example/dialog.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/example/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/example/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/example_dependency/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/example_dependency/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/fullpage/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/fullpage/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/fullscreen/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/fullscreen/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/hr/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/hr/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/image/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/image/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/imagetools/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/imagetools/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/importcss/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/importcss/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/insertdatetime/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/insertdatetime/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/layer/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/layer/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/legacyoutput/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/legacyoutput/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/link/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/link/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/lists/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/lists/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/media/moxieplayer.swf" afterPath="$PROJECT_DIR$/public/js/plugins/media/moxieplayer.swf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/media/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/media/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/nonbreaking/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/nonbreaking/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/noneditable/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/noneditable/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/pagebreak/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/pagebreak/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/paste/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/paste/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/preview/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/preview/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/print/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/print/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/save/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/save/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/searchreplace/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/searchreplace/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/spellchecker/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/spellchecker/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/tabfocus/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/tabfocus/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/table/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/table/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/template/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/template/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/textcolor/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/textcolor/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/textpattern/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/textpattern/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/visualblocks/css/visualblocks.css" afterPath="$PROJECT_DIR$/public/js/plugins/visualblocks/css/visualblocks.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/visualblocks/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/visualblocks/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/visualchars/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/visualchars/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/plugins/wordcount/plugin.min.js" afterPath="$PROJECT_DIR$/public/js/plugins/wordcount/plugin.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/content.inline.min.css" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/content.inline.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/content.min.css" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/content.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/fonts/tinymce-small.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/fonts/tinymce-small.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/fonts/tinymce-small.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/fonts/tinymce-small.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/fonts/tinymce.eot" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/fonts/tinymce.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/fonts/tinymce.svg" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/fonts/tinymce.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/fonts/tinymce.ttf" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/fonts/tinymce.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/fonts/tinymce.woff" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/fonts/tinymce.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/img/anchor.gif" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/img/anchor.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/img/loader.gif" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/img/loader.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/img/object.gif" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/img/object.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/img/trans.gif" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/img/trans.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/skin.ie7.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/public/js/skins/lightgray/skin.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/config/bolt/atomic.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/config/bolt/atomic.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/config/bolt/bootstrap-atomic.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/config/bolt/bootstrap-atomic.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/config/bolt/bootstrap-browser.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/config/bolt/bootstrap-browser.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/config/bolt/bootstrap-demo.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/config/bolt/bootstrap-demo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/config/bolt/bootstrap-prod.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/config/bolt/bootstrap-prod.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/config/bolt/browser.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/config/bolt/browser.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/config/bolt/demo.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/config/bolt/demo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/config/bolt/prod.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/config/bolt/prod.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/config/dent/depend.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/config/dent/depend.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/scratch/compile/bootstrap.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/scratch/compile/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/scratch/compile/theme.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/scratch/compile/theme.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/scratch/inline/theme.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/scratch/inline/theme.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/scratch/inline/theme.raw.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/scratch/inline/theme.raw.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/demo/css/demo.css" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/demo/css/demo.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/demo/html/demo.html" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/demo/html/demo.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/demo/js/tinymce/inlite/Demo.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/demo/js/tinymce/inlite/Demo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/Theme.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/Theme.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/alien/Arr.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/alien/Arr.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/alien/Bookmark.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/alien/Bookmark.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/alien/Unlink.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/alien/Unlink.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/alien/Uuid.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/alien/Uuid.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Actions.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/core/Actions.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Convert.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/core/Convert.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/ElementMatcher.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/core/ElementMatcher.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Layout.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/core/Layout.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Matcher.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/core/Matcher.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/Measure.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/core/Measure.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/PredicateId.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/core/PredicateId.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/SelectionMatcher.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/browser/file/SelectionMatcher.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/SkinLoader.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/core/SkinLoader.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/core/UrlType.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/core/UrlType.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/file/Conversions.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/file/Conversions.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/file/Picker.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/file/Picker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/ui/Buttons.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/ui/Buttons.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/ui/Forms.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/ui/Forms.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/ui/Panel.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/ui/Panel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/main/js/tinymce/inlite/ui/Toolbar.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/ui/Toolbar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/.eslintrc" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/.eslintrc" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/atomic/alien/ArrTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/atomic/alien/ArrTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/atomic/alien/UuidTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/atomic/alien/UuidTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/atomic/core/ConvertTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/atomic/core/ConvertTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/atomic/core/MatcherTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/atomic/core/MatcherTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/atomic/core/UrlTypeTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/atomic/core/UrlTypeTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/browser/ThemeTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/browser/ThemeTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/browser/alien/BookmarkTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/browser/alien/BookmarkTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/browser/alien/UnlinkTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/browser/alien/UnlinkTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/browser/core/ActionsTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/browser/core/ActionsTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/browser/core/ElementMatcher.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/browser/core/ElementMatcher.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/browser/core/LayoutTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/browser/core/LayoutTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/browser/core/MeasureTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/browser/core/MeasureTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/browser/core/PredicateIdTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/browser/core/PredicateIdTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/browser/core/SelectionMatcherTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/browser/core/SelectionMatcherTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/browser/file/ConversionsTest.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/test/js/browser/file/ConversionsTest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/src/test/js/browser/file/SelectionMatcher.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/src/main/js/tinymce/inlite/core/SelectionMatcher.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/inlite/theme.min.js" afterPath="$PROJECT_DIR$/public/js/themes/inlite/theme.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/themes/modern/theme.min.js" afterPath="$PROJECT_DIR$/public/js/themes/modern/theme.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/assets/js/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/public/js/tinymce.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Traits/PhotoManager.php" afterPath="$PROJECT_DIR$/app/Traits/PhotoManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_07_30_193415_create_categories_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_07_30_193415_create_categories_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_07_30_220205_create_tags_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_07_30_220205_create_tags_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/build/css/all.css.map" afterPath="$PROJECT_DIR$/public/build/css/all.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/build/rev-manifest.json" afterPath="$PROJECT_DIR$/public/build/rev-manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/all.css" afterPath="$PROJECT_DIR$/public/css/all.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/build/js/all-7c1ee9e422.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/all.css.map" afterPath="$PROJECT_DIR$/public/css/all.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/app.css" afterPath="$PROJECT_DIR$/resources/assets/css/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/css/app.css.map" afterPath="$PROJECT_DIR$/resources/assets/css/app.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/sass/module/_blog.scss" afterPath="$PROJECT_DIR$/resources/assets/sass/module/_blog.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/assets/sass/module/_model-lists.scss" afterPath="$PROJECT_DIR$/resources/assets/sass/module/_model-lists.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/profile.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/profile.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/users/showForm.blade.php" afterPath="$PROJECT_DIR$/resources/views/users/showForm.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/ownership.php" afterPath="$PROJECT_DIR$/config/ownership.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="Uci.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -212,16 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -232,41 +45,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_model-lists.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_model-lists.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/assets/sass/module/_model-lists.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="656">
+              <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/profile.blade.php">
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthServiceProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="36" />
+            <state relative-caret-position="597">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showForm.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/users/showForm.blade.php">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="80" column="37" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="37" />
+            <state relative-caret-position="459">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="935">
+              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ownership.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/ownership.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -298,21 +141,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/module/_section.scss" />
         <option value="$PROJECT_DIR$/resources/assets/sass/module/_main.scss" />
         <option value="$PROJECT_DIR$/config/test.php" />
         <option value="$PROJECT_DIR$/app/Listeners/UserRolesAttach.php" />
         <option value="$PROJECT_DIR$/app/Events/AttachUser.php" />
         <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-        <option value="$PROJECT_DIR$/config/ownership.php" />
         <option value="$PROJECT_DIR$/config/mail.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/auth/passwords/reset.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/users.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/tags.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/categories.blade.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/Category.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Tag.php" />
@@ -349,6 +189,9 @@
         <option value="$PROJECT_DIR$/resources/views/users/showInfo.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" />
         <option value="$PROJECT_DIR$/resources/assets/sass/module/_model-lists.scss" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/config/ownership.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -393,8 +236,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -423,113 +266,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sass" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -565,54 +302,14 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recover" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Http" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../laravel/Uci" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -750,12 +447,15 @@
       <workItem from="1477422912618" duration="9969000" />
       <workItem from="1477504824743" duration="7825000" />
       <workItem from="1477555335891" duration="1157000" />
-      <workItem from="1477560784381" duration="21961000" />
+      <workItem from="1477560784381" duration="24291000" />
+      <workItem from="1477765077837" duration="1864000" />
+      <workItem from="1478105666654" duration="136000" />
+      <workItem from="1478106082485" duration="2273000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="647933000" />
+    <option name="totallyTimeSpent" value="654536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -769,16 +469,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2743553" sideWeight="0.48902822" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2872493" sideWeight="0.48902822" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33064517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47580644" sideWeight="0.5114613" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.89569753" sideWeight="0.51432663" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.89784944" sideWeight="0.48853868" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8951613" sideWeight="0.48567334" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -820,6 +520,7 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -844,41 +545,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="11" column="80" selection-start-line="11" selection-start-column="80" selection-end-line="11" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/createPostJs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/assets/js/live_slug.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/js/nav_items.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -954,31 +620,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="95" column="45" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -986,7 +627,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -994,7 +634,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1010,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1018,7 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
           <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1026,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1034,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1042,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,23 +690,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3009">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html" />
     <entry file="file://$PROJECT_DIR$/resources/assets/js/tinycme.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="1" column="1035" selection-start-line="1" selection-start-column="1035" selection-end-line="1" selection-end-column="1035" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1082,7 +705,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="656">
           <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,7 +712,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,7 +719,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="67" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="758">
           <caret line="81" column="8" selection-start-line="81" selection-start-column="8" selection-end-line="81" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,7 +740,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,7 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="207" column="50" selection-start-line="207" selection-start-column="50" selection-end-line="207" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1146,7 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1154,13 +768,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="629">
           <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
           <folding />
         </state>
@@ -1170,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="28" column="32" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1178,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1200,7 +811,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/users/showForm.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
+        <state relative-caret-position="1360">
           <caret line="80" column="37" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="37" />
           <folding />
         </state>
@@ -1222,10 +833,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="96" column="0" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/ownership.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/assets/sass/module/_model-lists.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="656">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>

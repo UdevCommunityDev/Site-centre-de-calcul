@@ -12,7 +12,7 @@ return [
 
     'email' => env('OWNER_EMAIL','example@example.com'),
 
-    'name' => env('OWNER_NAME','Uci Owner'),
+    'name' => env('OWNER_NAME','root'),
 
     'password' => env('OWNER_PASSWORD','root') ,
     
